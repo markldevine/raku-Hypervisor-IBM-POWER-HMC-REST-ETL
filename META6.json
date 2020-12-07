@@ -13,7 +13,6 @@
     "name":         "Hypervisor::IBM::POWER::HMC::REST::ETL",
     "perl":         "6.*",
     "provides":     {
-        "Hypervisor::IBM::POWER::HMC::REST::ETL::LibXML": "lib/Hypervisor/IBM/POWER/HMC/REST/ETL/LibXML.rakumod",
         "Hypervisor::IBM::POWER::HMC::REST::ETL::XML": "lib/Hypervisor/IBM/POWER/HMC/REST/ETL/XML.rakumod"
     },
     "resources":    [],
