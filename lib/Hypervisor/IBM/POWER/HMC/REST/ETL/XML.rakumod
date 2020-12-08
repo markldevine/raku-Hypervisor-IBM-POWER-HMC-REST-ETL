@@ -8,14 +8,14 @@ has     LibXML::Element $.xml;
 
 ###%    Convert etl-parse-string & etl-parse-path to multi-method etl-parse...
 
-#   self.etl-string(:$xml-string);
+#   self.etl-parse-string(:$xml-string);
 method etl-parse-string (Str:D :$xml-string is required) {
     my LibXML::Document $dom;
     die 'Unable to read XML from $xml-string' unless $dom = LibXML.parse(:string($xml-string), :!blanks);
     $!xml = $dom.documentElement;
 }
 
-#   self.etl-parse(:$xml-path);
+#   self.etl-parse-path(:$xml-path);
 method etl-parse-path (Str:D :$xml-path is required) {
     my LibXML::Document $dom;
     die 'Unable to read XML from ' ~ $xml-path unless $dom = LibXML.parse(:location($xml-path), :!blanks);
