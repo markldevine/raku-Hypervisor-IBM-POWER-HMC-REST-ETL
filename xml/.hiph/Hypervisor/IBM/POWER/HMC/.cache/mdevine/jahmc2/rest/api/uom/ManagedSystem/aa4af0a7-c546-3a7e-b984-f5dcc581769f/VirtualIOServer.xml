@@ -1,25 +1,25 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
     <id>c14db01c-e05a-3e94-bc77-571f03aa2fe7</id>
-    <updated>2020-12-07T19:31:32.521-05:00</updated>
+    <updated>2021-01-12T11:14:42.605-05:00</updated>
     <link rel="SELF" href="https://jahmc2:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/VirtualIOServer"/>
     <link rel="MANAGEMENT_CONSOLE" href="https://jahmc2:12443/rest/api/uom/ManagementConsole/760175e6-d789-308c-99b9-636c01390036"/>
     <generator>IBM Power Systems Management Console</generator>
     <entry>
         <id>35CB0E54-5A03-4468-B601-F470D693932C</id>
         <title>VirtualIOServer</title>
-        <published>2020-12-07T19:31:33.951-05:00</published>
+        <published>2021-01-12T11:14:43.863-05:00</published>
         <link rel="SELF" href="https://jahmc2:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/VirtualIOServer/35CB0E54-5A03-4468-B601-F470D693932C"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-583398450</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">140065186</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=VirtualIOServer">
             <VirtualIOServer:VirtualIOServer xmlns:VirtualIOServer="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>35CB0E54-5A03-4468-B601-F470D693932C</AtomID>
-            <AtomCreated>1607356938029</AtomCreated>
+            <AtomCreated>1610468083242</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1112,7 +1112,6 @@
             </AssociatedVirtualSwitch>
             <VirtualSwitchID kb="ROR" kxe="false">0</VirtualSwitchID>
             <DeviceName kxe="false" kb="ROR">ent9</DeviceName>
-            <HCNID ksv="V1_10_0" kb="ROR" kxe="false">0</HCNID>
             <TrunkPriority kxe="false" kb="CUD">1</TrunkPriority>
         </TrunkAdapter>
     </TrunkAdapters>
@@ -4440,7 +4439,7 @@
     <entry>
         <id>1957A79F-5C46-476B-8BD2-6AFC09C1D3AC</id>
         <title>VirtualIOServer</title>
-        <published>2020-12-07T19:31:33.992-05:00</published>
+        <published>2021-01-12T11:14:43.890-05:00</published>
         <link rel="SELF" href="https://jahmc2:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/VirtualIOServer/1957A79F-5C46-476B-8BD2-6AFC09C1D3AC"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -4451,7 +4450,7 @@
     <Metadata>
         <Atom>
             <AtomID>1957A79F-5C46-476B-8BD2-6AFC09C1D3AC</AtomID>
-            <AtomCreated>1607356938029</AtomCreated>
+            <AtomCreated>1610468083606</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>

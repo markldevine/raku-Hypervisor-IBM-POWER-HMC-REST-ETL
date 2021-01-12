@@ -1,25 +1,25 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
     <id>e241c2a6-4d7a-3ce0-9e55-e8eb8841a377</id>
-    <updated>2020-12-07T19:34:24.752-05:00</updated>
+    <updated>2021-01-12T10:39:10.021-05:00</updated>
     <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/727005ab-1106-314e-9ca0-6e68670eca53/VirtualIOServer"/>
     <link rel="MANAGEMENT_CONSOLE" href="https://cahmc2:12443/rest/api/uom/ManagementConsole/d63072d2-9632-3c75-8b68-9cad816ae25f"/>
     <generator>IBM Power Systems Management Console</generator>
     <entry>
         <id>4D8E57BD-F80C-470D-85AB-51B81BE194BA</id>
         <title>VirtualIOServer</title>
-        <published>2020-12-07T19:34:26.128-05:00</published>
+        <published>2021-01-12T10:39:17.126-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/727005ab-1106-314e-9ca0-6e68670eca53/VirtualIOServer/4D8E57BD-F80C-470D-85AB-51B81BE194BA"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-1108894236</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-1356541263</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=VirtualIOServer">
             <VirtualIOServer:VirtualIOServer xmlns:VirtualIOServer="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>4D8E57BD-F80C-470D-85AB-51B81BE194BA</AtomID>
-            <AtomCreated>1607387665550</AtomCreated>
+            <AtomCreated>1610465956322</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -470,23 +470,6 @@
     <Metadata>
         <Atom/>
     </Metadata>
-    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P2-C5-T2</LocationCode>
-    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
-        <Metadata>
-            <Atom/>
-        </Metadata>
-    </PhysicalVolumes>
-    <PortName kb="CUR" kxe="false">fcs3</PortName>
-    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
-    <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
-    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
-    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
-</PhysicalFibreChannelPort>
-<PhysicalFibreChannelPort schemaVersion="V1_0">
-    <Metadata>
-        <Atom/>
-    </Metadata>
     <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P2-C5-T1</LocationCode>
     <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
         <Metadata>
@@ -497,7 +480,24 @@
     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
     <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
+    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+</PhysicalFibreChannelPort>
+<PhysicalFibreChannelPort schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P2-C5-T2</LocationCode>
+    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </PhysicalVolumes>
+    <PortName kb="CUR" kxe="false">fcs3</PortName>
+    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
+    <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
+    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
+    <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
 </PhysicalFibreChannelPort>
                             </PhysicalFibreChannelPorts>
@@ -889,6 +889,7 @@
         <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/4D8E57BD-F80C-470D-85AB-51B81BE194BA/SRIOVEthernetLogicalPort/828d29dd-7e99-3d67-a74e-ab077905035f" rel="related"/>
         <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/4D8E57BD-F80C-470D-85AB-51B81BE194BA/SRIOVEthernetLogicalPort/d39997c6-acfa-3eab-8132-cf6a4f655a55" rel="related"/>
         <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/4D8E57BD-F80C-470D-85AB-51B81BE194BA/SRIOVEthernetLogicalPort/4322d8d5-ba4f-3c84-b269-6fa40930dff9" rel="related"/>
+        <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/4D8E57BD-F80C-470D-85AB-51B81BE194BA/SRIOVEthernetLogicalPort/31a74325-397b-3e5e-881e-41b7d5f7b71f" rel="related"/>
     </SRIOVEthernetLogicalPorts>
     <HostEthernetAdapterLogicalPorts kb="CUD" kxe="false" schemaVersion="V1_0">
         <Metadata>
@@ -954,19 +955,19 @@
                 <Atom/>
             </Metadata>
             <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
-            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C12-L4074F0B900-L0</LocationCode>
+            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C12-L2074D26700-L0</LocationCode>
             <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
             <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
-            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NEYwQjkwMDAwMDAwMDQw</UniqueDeviceID>
+            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NEQyNjcwMDAwMDAwMDIw</UniqueDeviceID>
             <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
             <VolumeCapacity kxe="false" kb="CUR">739968</VolumeCapacity>
-            <VolumeName kb="CUR" kxe="false">hdisk3</VolumeName>
+            <VolumeName kb="CUR" kxe="false">hdisk1</VolumeName>
             <VolumeState kb="ROR" kxe="false">active</VolumeState>
-            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74F0B9000000004010IPR-0   74F0B90003IBMsas</VolumeUniqueID>
+            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74D267000000002010IPR-0   74D2670003IBMsas</VolumeUniqueID>
             <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
             <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
             <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
-            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0RjBCOTAwMDAwMDAwNDA=</DescriptorPage83>
+            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0RDI2NzAwMDAwMDAwMjA=</DescriptorPage83>
         </PhysicalVolume>
         <PhysicalVolume schemaVersion="V1_0">
             <Metadata>
@@ -992,19 +993,19 @@
                 <Atom/>
             </Metadata>
             <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
-            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C12-L2074D26700-L0</LocationCode>
+            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C12-L4074F0B900-L0</LocationCode>
             <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
             <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
-            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NEQyNjcwMDAwMDAwMDIw</UniqueDeviceID>
+            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NEYwQjkwMDAwMDAwMDQw</UniqueDeviceID>
             <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
             <VolumeCapacity kxe="false" kb="CUR">739968</VolumeCapacity>
-            <VolumeName kb="CUR" kxe="false">hdisk1</VolumeName>
+            <VolumeName kb="CUR" kxe="false">hdisk3</VolumeName>
             <VolumeState kb="ROR" kxe="false">active</VolumeState>
-            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74D267000000002010IPR-0   74D2670003IBMsas</VolumeUniqueID>
+            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74F0B9000000004010IPR-0   74F0B90003IBMsas</VolumeUniqueID>
             <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
             <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
             <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
-            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0RDI2NzAwMDAwMDAwMjA=</DescriptorPage83>
+            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0RjBCOTAwMDAwMDAwNDA=</DescriptorPage83>
         </PhysicalVolume>
     </PhysicalVolumes>
     <SharedEthernetAdapters group="ViosNetwork" kxe="false" kb="CUD" schemaVersion="V1_0">
@@ -1140,7 +1141,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -1168,7 +1169,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -1202,7 +1203,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -1230,7 +1231,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -2132,7 +2133,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -2160,7 +2161,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -2194,7 +2195,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -2222,7 +2223,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -2628,7 +2629,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -2656,7 +2657,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -2938,7 +2939,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -2966,7 +2967,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -3124,7 +3125,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -3152,7 +3153,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -3186,7 +3187,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -3214,7 +3215,131 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
+                    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+                </PhysicalPort>
+            </ServerAdapter>
+        </VirtualFibreChannelMapping>
+        <VirtualFibreChannelMapping schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <AssociatedLogicalPartition kxe="false" kb="CUR" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/727005ab-1106-314e-9ca0-6e68670eca53/LogicalPartition/3DFAB601-5726-4823-B91B-976C18773304" rel="related"/>
+            <ClientAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <AdapterType kb="ROR" kxe="false">Client</AdapterType>
+                <DynamicReconfigurationConnectorName kb="CUD" kxe="false">U9040.MR9.78AE74X-V118-C1318</DynamicReconfigurationConnectorName>
+                <LocationCode kxe="false" kb="ROR">U9040.MR9.78AE74X-V118-C1318</LocationCode>
+                <LocalPartitionID kxe="false" kb="CUR">118</LocalPartitionID>
+                <RequiredAdapter kxe="false" kb="CUD">false</RequiredAdapter>
+                <VariedOn kb="CUD" kxe="true">true</VariedOn>
+                <VirtualSlotNumber kxe="false" kb="COD">1318</VirtualSlotNumber>
+                <ConnectingPartitionID kxe="false" kb="CUR">2</ConnectingPartitionID>
+                <ConnectingVirtualSlotNumber kxe="false" kb="CUR">1318</ConnectingVirtualSlotNumber>
+                <WWPNs kb="CUR" kxe="false">c050760680830092 c050760680830093</WWPNs>
+            </ClientAdapter>
+            <Port kxe="false" kb="CUR" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P2-C5-T1</LocationCode>
+                <PortName kb="CUR" kxe="false">fcs2</PortName>
+                <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
+                <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
+                <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
+                <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+            </Port>
+            <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <AdapterType kb="ROR" kxe="false">Server</AdapterType>
+                <DynamicReconfigurationConnectorName kb="CUD" kxe="false">U9040.MR9.78AE74X-V2-C1318</DynamicReconfigurationConnectorName>
+                <LocationCode kxe="false" kb="ROR">U9040.MR9.78AE74X-V2-C1318</LocationCode>
+                <LocalPartitionID kxe="false" kb="CUR">2</LocalPartitionID>
+                <RequiredAdapter kxe="false" kb="CUD">false</RequiredAdapter>
+                <VariedOn kb="CUD" kxe="true">true</VariedOn>
+                <VirtualSlotNumber kxe="false" kb="COD">1318</VirtualSlotNumber>
+                <AdapterName kb="CUR" kxe="false">vfchost38</AdapterName>
+                <ConnectingPartitionID kxe="false" kb="CUR">118</ConnectingPartitionID>
+                <ConnectingVirtualSlotNumber kxe="false" kb="CUR">1318</ConnectingVirtualSlotNumber>
+                <UniqueDeviceID kxe="false" kb="CUR">1dU9040.MR9.78AE74X-V2-C1318</UniqueDeviceID>
+                <MapPort kxe="false" kb="CUR">fcs2</MapPort>
+                <PhysicalPort kxe="false" kb="CUD" schemaVersion="V1_0">
+                    <Metadata>
+                        <Atom/>
+                    </Metadata>
+                    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P2-C5-T1</LocationCode>
+                    <PortName kb="CUR" kxe="false">fcs2</PortName>
+                    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T1</UniqueDeviceID>
+                    <WWPN kb="CUR" kxe="false">100000109b5ae1a4</WWPN>
+                    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a4</WWNN>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
+                    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+                </PhysicalPort>
+            </ServerAdapter>
+        </VirtualFibreChannelMapping>
+        <VirtualFibreChannelMapping schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <AssociatedLogicalPartition kxe="false" kb="CUR" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/727005ab-1106-314e-9ca0-6e68670eca53/LogicalPartition/3DFAB601-5726-4823-B91B-976C18773304" rel="related"/>
+            <ClientAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <AdapterType kb="ROR" kxe="false">Client</AdapterType>
+                <DynamicReconfigurationConnectorName kb="CUD" kxe="false">U9040.MR9.78AE74X-V118-C1118</DynamicReconfigurationConnectorName>
+                <LocationCode kxe="false" kb="ROR">U9040.MR9.78AE74X-V118-C1118</LocationCode>
+                <LocalPartitionID kxe="false" kb="CUR">118</LocalPartitionID>
+                <RequiredAdapter kxe="false" kb="CUD">false</RequiredAdapter>
+                <VariedOn kb="CUD" kxe="true">true</VariedOn>
+                <VirtualSlotNumber kxe="false" kb="COD">1118</VirtualSlotNumber>
+                <ConnectingPartitionID kxe="false" kb="CUR">2</ConnectingPartitionID>
+                <ConnectingVirtualSlotNumber kxe="false" kb="CUR">1118</ConnectingVirtualSlotNumber>
+                <WWPNs kb="CUR" kxe="false">c050760680830096 c050760680830097</WWPNs>
+            </ClientAdapter>
+            <Port kxe="false" kb="CUR" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P2-C5-T2</LocationCode>
+                <PortName kb="CUR" kxe="false">fcs3</PortName>
+                <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
+                <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
+                <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
+                <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
+                <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+            </Port>
+            <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <AdapterType kb="ROR" kxe="false">Server</AdapterType>
+                <DynamicReconfigurationConnectorName kb="CUD" kxe="false">U9040.MR9.78AE74X-V2-C1118</DynamicReconfigurationConnectorName>
+                <LocationCode kxe="false" kb="ROR">U9040.MR9.78AE74X-V2-C1118</LocationCode>
+                <LocalPartitionID kxe="false" kb="CUR">2</LocalPartitionID>
+                <RequiredAdapter kxe="false" kb="CUD">false</RequiredAdapter>
+                <VariedOn kb="CUD" kxe="true">true</VariedOn>
+                <VirtualSlotNumber kxe="false" kb="COD">1118</VirtualSlotNumber>
+                <AdapterName kb="CUR" kxe="false">vfchost39</AdapterName>
+                <ConnectingPartitionID kxe="false" kb="CUR">118</ConnectingPartitionID>
+                <ConnectingVirtualSlotNumber kxe="false" kb="CUR">1118</ConnectingVirtualSlotNumber>
+                <UniqueDeviceID kxe="false" kb="CUR">1dU9040.MR9.78AE74X-V2-C1118</UniqueDeviceID>
+                <MapPort kxe="false" kb="CUR">fcs3</MapPort>
+                <PhysicalPort kxe="false" kb="CUD" schemaVersion="V1_0">
+                    <Metadata>
+                        <Atom/>
+                    </Metadata>
+                    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P2-C5-T2</LocationCode>
+                    <PortName kb="CUR" kxe="false">fcs3</PortName>
+                    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P2-C5-T2</UniqueDeviceID>
+                    <WWPN kb="CUR" kxe="false">100000109b5ae1a5</WWPN>
+                    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae1a5</WWNN>
+                    <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -3540,6 +3665,25 @@
                 <DesiredMaxCapacityPercentage ksv="V1_6_0" kxe="false" kb="ROR">100.0%</DesiredMaxCapacityPercentage>
             </VirtualNICSRIOVBackingDevice>
         </VirtualNICBackingDeviceChoice>
+        <VirtualNICBackingDeviceChoice>
+            <VirtualNICSRIOVBackingDevice schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <DeviceType ksv="V1_3_0" kxe="false" kb="COR">SRIOV</DeviceType>
+                <AssociatedVirtualIOServer ksv="V1_3_0" kxe="false" kb="COR" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/727005ab-1106-314e-9ca0-6e68670eca53/VirtualIOServer/4D8E57BD-F80C-470D-85AB-51B81BE194BA" rel="related"/>
+                <IsActive ksv="V1_4_0" kxe="false" kb="ROR">true</IsActive>
+                <Status ksv="V1_4_0" kxe="false" kb="ROR">OPERATIONAL</Status>
+                <FailOverPriority ksv="V1_4_0" kxe="false" kb="CUD">45</FailOverPriority>
+                <RelatedSRIOVAdapterID ksv="V1_3_0" kxe="false" kb="COR">3</RelatedSRIOVAdapterID>
+                <CurrentCapacityPercentage ksv="V1_3_0" kxe="false" kb="COD">2.0%</CurrentCapacityPercentage>
+                <RelatedSRIOVPhysicalPortID ksv="V1_3_0" kxe="false" kb="COR">0</RelatedSRIOVPhysicalPortID>
+                <RelatedSRIOVLogicalPort ksv="V1_3_0" kxe="false" kb="ROR" href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/4D8E57BD-F80C-470D-85AB-51B81BE194BA/SRIOVEthernetLogicalPort/31a74325-397b-3e5e-881e-41b7d5f7b71f" rel="related"/>
+                <DesiredCapacityPercentage ksv="V1_4_0" kb="ROR" kxe="false">2.0%</DesiredCapacityPercentage>
+                <MaxCapacityPercentage ksv="V1_6_0" kxe="false" kb="COD">100.0%</MaxCapacityPercentage>
+                <DesiredMaxCapacityPercentage ksv="V1_6_0" kxe="false" kb="ROR">100.0%</DesiredMaxCapacityPercentage>
+            </VirtualNICSRIOVBackingDevice>
+        </VirtualNICBackingDeviceChoice>
     </VirtualNICBackingDevices>
     <VirtualIOServerCapabilities group="Advanced" ksv="V1_3_0" kb="ROR" kxe="false" schemaVersion="V1_0">
         <Metadata>
@@ -3554,18 +3698,18 @@
     <entry>
         <id>06A35744-2286-40A4-BA6E-00AAEDBFC86C</id>
         <title>VirtualIOServer</title>
-        <published>2020-12-07T19:34:26.152-05:00</published>
+        <published>2021-01-12T10:39:17.149-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/727005ab-1106-314e-9ca0-6e68670eca53/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">2022867281</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">389452666</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=VirtualIOServer">
             <VirtualIOServer:VirtualIOServer xmlns:VirtualIOServer="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>06A35744-2286-40A4-BA6E-00AAEDBFC86C</AtomID>
-            <AtomCreated>1607387665931</AtomCreated>
+            <AtomCreated>1610465956761</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -3860,23 +4004,6 @@
     <Metadata>
         <Atom/>
     </Metadata>
-    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C3-T2</LocationCode>
-    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
-        <Metadata>
-            <Atom/>
-        </Metadata>
-    </PhysicalVolumes>
-    <PortName kb="CUR" kxe="false">fcs5</PortName>
-    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C3-T2</UniqueDeviceID>
-    <WWPN kb="CUR" kxe="false">100000109b5ad465</WWPN>
-    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad465</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">63</AvailablePorts>
-    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
-</PhysicalFibreChannelPort>
-<PhysicalFibreChannelPort schemaVersion="V1_0">
-    <Metadata>
-        <Atom/>
-    </Metadata>
     <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C3-T1</LocationCode>
     <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
         <Metadata>
@@ -3888,6 +4015,23 @@
     <WWPN kb="CUR" kxe="false">100000109b5ad464</WWPN>
     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad464</WWNN>
     <AvailablePorts kxe="true" kb="ROR">62</AvailablePorts>
+    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+</PhysicalFibreChannelPort>
+<PhysicalFibreChannelPort schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C3-T2</LocationCode>
+    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </PhysicalVolumes>
+    <PortName kb="CUR" kxe="false">fcs5</PortName>
+    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C3-T2</UniqueDeviceID>
+    <WWPN kb="CUR" kxe="false">100000109b5ad465</WWPN>
+    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad465</WWNN>
+    <AvailablePorts kxe="true" kb="ROR">63</AvailablePorts>
     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
 </PhysicalFibreChannelPort>
                             </PhysicalFibreChannelPorts>
@@ -3955,6 +4099,23 @@
     <Metadata>
         <Atom/>
     </Metadata>
+    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C5-T1</LocationCode>
+    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </PhysicalVolumes>
+    <PortName kb="CUR" kxe="false">fcs2</PortName>
+    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
+    <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
+    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
+    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
+    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+</PhysicalFibreChannelPort>
+<PhysicalFibreChannelPort schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
     <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C5-T2</LocationCode>
     <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
         <Metadata>
@@ -3966,23 +4127,6 @@
     <WWPN kb="CUR" kxe="false">100000109b5ad474</WWPN>
     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad474</WWNN>
     <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
-    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
-</PhysicalFibreChannelPort>
-<PhysicalFibreChannelPort schemaVersion="V1_0">
-    <Metadata>
-        <Atom/>
-    </Metadata>
-    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C5-T1</LocationCode>
-    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
-        <Metadata>
-            <Atom/>
-        </Metadata>
-    </PhysicalVolumes>
-    <PortName kb="CUR" kxe="false">fcs2</PortName>
-    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
-    <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
-    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
 </PhysicalFibreChannelPort>
                             </PhysicalFibreChannelPorts>
@@ -4050,23 +4194,6 @@
     <Metadata>
         <Atom/>
     </Metadata>
-    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C6-T2</LocationCode>
-    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
-        <Metadata>
-            <Atom/>
-        </Metadata>
-    </PhysicalVolumes>
-    <PortName kb="CUR" kxe="false">fcs1</PortName>
-    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C6-T2</UniqueDeviceID>
-    <WWPN kb="CUR" kxe="false">100000109b5ad477</WWPN>
-    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad477</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
-    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
-</PhysicalFibreChannelPort>
-<PhysicalFibreChannelPort schemaVersion="V1_0">
-    <Metadata>
-        <Atom/>
-    </Metadata>
     <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C6-T1</LocationCode>
     <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
         <Metadata>
@@ -4077,6 +4204,23 @@
     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C6-T1</UniqueDeviceID>
     <WWPN kb="CUR" kxe="false">100000109b5ad476</WWPN>
     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad476</WWNN>
+    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
+    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+</PhysicalFibreChannelPort>
+<PhysicalFibreChannelPort schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C6-T2</LocationCode>
+    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </PhysicalVolumes>
+    <PortName kb="CUR" kxe="false">fcs1</PortName>
+    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C6-T2</UniqueDeviceID>
+    <WWPN kb="CUR" kxe="false">100000109b5ad477</WWPN>
+    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad477</WWNN>
     <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
 </PhysicalFibreChannelPort>
@@ -4145,23 +4289,6 @@
     <Metadata>
         <Atom/>
     </Metadata>
-    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV779-P1-C5-T2</LocationCode>
-    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
-        <Metadata>
-            <Atom/>
-        </Metadata>
-    </PhysicalVolumes>
-    <PortName kb="CUR" kxe="false">fcs9</PortName>
-    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV779-P1-C5-T2</UniqueDeviceID>
-    <WWPN kb="CUR" kxe="false">100000109b5ad384</WWPN>
-    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad384</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">62</AvailablePorts>
-    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
-</PhysicalFibreChannelPort>
-<PhysicalFibreChannelPort schemaVersion="V1_0">
-    <Metadata>
-        <Atom/>
-    </Metadata>
     <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV779-P1-C5-T1</LocationCode>
     <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
         <Metadata>
@@ -4173,6 +4300,23 @@
     <WWPN kb="CUR" kxe="false">100000109b5ad383</WWPN>
     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad383</WWNN>
     <AvailablePorts kxe="true" kb="ROR">60</AvailablePorts>
+    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+</PhysicalFibreChannelPort>
+<PhysicalFibreChannelPort schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV779-P1-C5-T2</LocationCode>
+    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </PhysicalVolumes>
+    <PortName kb="CUR" kxe="false">fcs9</PortName>
+    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV779-P1-C5-T2</UniqueDeviceID>
+    <WWPN kb="CUR" kxe="false">100000109b5ad384</WWPN>
+    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad384</WWNN>
+    <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
 </PhysicalFibreChannelPort>
                             </PhysicalFibreChannelPorts>
@@ -4370,6 +4514,7 @@
         <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C/SRIOVEthernetLogicalPort/1659b773-4929-30a9-97c9-9dd915781cae" rel="related"/>
         <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C/SRIOVEthernetLogicalPort/57429c5c-b5e2-35ef-9d12-509f51cbb3d2" rel="related"/>
         <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C/SRIOVEthernetLogicalPort/049e7da8-858a-34ef-866a-d7bf6723225f" rel="related"/>
+        <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C/SRIOVEthernetLogicalPort/092a5538-9b3d-375a-84b6-0cc9ff411b98" rel="related"/>
         <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C/SRIOVEthernetLogicalPort/691f025b-efe8-3d10-909e-e9a3bc5fe437" rel="related"/>
         <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C/SRIOVEthernetLogicalPort/a5dfe50e-323d-3c4b-8594-eb6261e47f4a" rel="related"/>
         <link href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C/SRIOVEthernetLogicalPort/4cc139dc-307f-334e-92d9-206b143b05f9" rel="related"/>
@@ -4419,25 +4564,6 @@
                 <Atom/>
             </Metadata>
             <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
-            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C9-L4074D0D600-L0</LocationCode>
-            <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
-            <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
-            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NEQwRDYwMDAwMDAwMDQw</UniqueDeviceID>
-            <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
-            <VolumeCapacity kxe="false" kb="CUR">369984</VolumeCapacity>
-            <VolumeName kb="CUR" kxe="false">hdisk2</VolumeName>
-            <VolumeState kb="ROR" kxe="false">active</VolumeState>
-            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74D0D6000000004010IPR-0   74D0D60003IBMsas</VolumeUniqueID>
-            <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
-            <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
-            <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
-            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0RDBENjAwMDAwMDAwNDA=</DescriptorPage83>
-        </PhysicalVolume>
-        <PhysicalVolume schemaVersion="V1_0">
-            <Metadata>
-                <Atom/>
-            </Metadata>
-            <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
             <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C9-L8074D0D600-L0</LocationCode>
             <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
             <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
@@ -4457,25 +4583,6 @@
                 <Atom/>
             </Metadata>
             <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
-            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C9-L2074D0D600-L0</LocationCode>
-            <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
-            <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
-            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NEQwRDYwMDAwMDAwMDIw</UniqueDeviceID>
-            <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
-            <VolumeCapacity kxe="false" kb="CUR">369984</VolumeCapacity>
-            <VolumeName kb="CUR" kxe="false">hdisk3</VolumeName>
-            <VolumeState kb="ROR" kxe="false">active</VolumeState>
-            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74D0D6000000002010IPR-0   74D0D60003IBMsas</VolumeUniqueID>
-            <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
-            <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
-            <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
-            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0RDBENjAwMDAwMDAwMjA=</DescriptorPage83>
-        </PhysicalVolume>
-        <PhysicalVolume schemaVersion="V1_0">
-            <Metadata>
-                <Atom/>
-            </Metadata>
-            <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
             <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C9-L6074D0D600-L0</LocationCode>
             <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
             <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
@@ -4489,6 +4596,44 @@
             <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
             <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
             <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0RDBENjAwMDAwMDAwNjA=</DescriptorPage83>
+        </PhysicalVolume>
+        <PhysicalVolume schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
+            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C9-L4074D0D600-L0</LocationCode>
+            <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
+            <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
+            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NEQwRDYwMDAwMDAwMDQw</UniqueDeviceID>
+            <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
+            <VolumeCapacity kxe="false" kb="CUR">369984</VolumeCapacity>
+            <VolumeName kb="CUR" kxe="false">hdisk2</VolumeName>
+            <VolumeState kb="ROR" kxe="false">active</VolumeState>
+            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74D0D6000000004010IPR-0   74D0D60003IBMsas</VolumeUniqueID>
+            <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
+            <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
+            <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
+            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0RDBENjAwMDAwMDAwNDA=</DescriptorPage83>
+        </PhysicalVolume>
+        <PhysicalVolume schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
+            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1BLY-P1-C9-L2074D0D600-L0</LocationCode>
+            <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
+            <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
+            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NEQwRDYwMDAwMDAwMDIw</UniqueDeviceID>
+            <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
+            <VolumeCapacity kxe="false" kb="CUR">369984</VolumeCapacity>
+            <VolumeName kb="CUR" kxe="false">hdisk3</VolumeName>
+            <VolumeState kb="ROR" kxe="false">active</VolumeState>
+            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74D0D6000000002010IPR-0   74D0D60003IBMsas</VolumeUniqueID>
+            <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
+            <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
+            <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
+            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0RDBENjAwMDAwMDAwMjA=</DescriptorPage83>
         </PhysicalVolume>
     </PhysicalVolumes>
     <SharedEthernetAdapters group="ViosNetwork" kxe="false" kb="CUD" schemaVersion="V1_0">
@@ -4587,7 +4732,6 @@
             </AssociatedVirtualSwitch>
             <VirtualSwitchID kb="ROR" kxe="false">0</VirtualSwitchID>
             <DeviceName kxe="false" kb="ROR">ent9</DeviceName>
-            <HCNID ksv="V1_10_0" kb="ROR" kxe="false">0</HCNID>
             <TrunkPriority kxe="false" kb="CUD">2</TrunkPriority>
         </TrunkAdapter>
     </TrunkAdapters>
@@ -5059,7 +5203,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -5087,7 +5231,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -5121,7 +5265,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -5149,7 +5293,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -5183,7 +5327,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -5211,7 +5355,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -5555,7 +5699,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV779-P1-C5-T2</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ad384</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad384</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">62</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -5583,7 +5727,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV779-P1-C5-T2</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ad384</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad384</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">62</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -5617,7 +5761,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV779-P1-C5-T2</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ad384</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad384</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">62</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -5645,7 +5789,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV779-P1-C5-T2</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ad384</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad384</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">62</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -5927,7 +6071,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -5955,7 +6099,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -6175,7 +6319,7 @@
                 <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                 <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                 <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                 <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
             </Port>
             <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
@@ -6203,7 +6347,7 @@
                     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
                     <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
                     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
-                    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
                     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
                 </PhysicalPort>
             </ServerAdapter>
@@ -6704,6 +6848,130 @@
                 </PhysicalPort>
             </ServerAdapter>
         </VirtualFibreChannelMapping>
+        <VirtualFibreChannelMapping schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <AssociatedLogicalPartition kxe="false" kb="CUR" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/727005ab-1106-314e-9ca0-6e68670eca53/LogicalPartition/3DFAB601-5726-4823-B91B-976C18773304" rel="related"/>
+            <ClientAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <AdapterType kb="ROR" kxe="false">Client</AdapterType>
+                <DynamicReconfigurationConnectorName kb="CUD" kxe="false">U9040.MR9.78AE74X-V118-C1418</DynamicReconfigurationConnectorName>
+                <LocationCode kxe="false" kb="ROR">U9040.MR9.78AE74X-V118-C1418</LocationCode>
+                <LocalPartitionID kxe="false" kb="CUR">118</LocalPartitionID>
+                <RequiredAdapter kxe="false" kb="CUD">false</RequiredAdapter>
+                <VariedOn kb="CUD" kxe="true">true</VariedOn>
+                <VirtualSlotNumber kxe="false" kb="COD">1418</VirtualSlotNumber>
+                <ConnectingPartitionID kxe="false" kb="CUR">1</ConnectingPartitionID>
+                <ConnectingVirtualSlotNumber kxe="false" kb="CUR">1418</ConnectingVirtualSlotNumber>
+                <WWPNs kb="CUR" kxe="false">c050760680830094 c050760680830095</WWPNs>
+            </ClientAdapter>
+            <Port kxe="false" kb="CUR" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C5-T1</LocationCode>
+                <PortName kb="CUR" kxe="false">fcs2</PortName>
+                <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
+                <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
+                <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
+                <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
+                <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+            </Port>
+            <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <AdapterType kb="ROR" kxe="false">Server</AdapterType>
+                <DynamicReconfigurationConnectorName kb="CUD" kxe="false">U9040.MR9.78AE74X-V1-C1418</DynamicReconfigurationConnectorName>
+                <LocationCode kxe="false" kb="ROR">U9040.MR9.78AE74X-V1-C1418</LocationCode>
+                <LocalPartitionID kxe="false" kb="CUR">1</LocalPartitionID>
+                <RequiredAdapter kxe="false" kb="CUD">false</RequiredAdapter>
+                <VariedOn kb="CUD" kxe="true">true</VariedOn>
+                <VirtualSlotNumber kxe="false" kb="COD">1418</VirtualSlotNumber>
+                <AdapterName kb="CUR" kxe="false">vfchost38</AdapterName>
+                <ConnectingPartitionID kxe="false" kb="CUR">118</ConnectingPartitionID>
+                <ConnectingVirtualSlotNumber kxe="false" kb="CUR">1418</ConnectingVirtualSlotNumber>
+                <UniqueDeviceID kxe="false" kb="CUR">1dU9040.MR9.78AE74X-V1-C1418</UniqueDeviceID>
+                <MapPort kxe="false" kb="CUR">fcs2</MapPort>
+                <PhysicalPort kxe="false" kb="CUD" schemaVersion="V1_0">
+                    <Metadata>
+                        <Atom/>
+                    </Metadata>
+                    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV602-P1-C5-T1</LocationCode>
+                    <PortName kb="CUR" kxe="false">fcs2</PortName>
+                    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV602-P1-C5-T1</UniqueDeviceID>
+                    <WWPN kb="CUR" kxe="false">100000109b5ad473</WWPN>
+                    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad473</WWNN>
+                    <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
+                    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+                </PhysicalPort>
+            </ServerAdapter>
+        </VirtualFibreChannelMapping>
+        <VirtualFibreChannelMapping schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <AssociatedLogicalPartition kxe="false" kb="CUR" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/727005ab-1106-314e-9ca0-6e68670eca53/LogicalPartition/3DFAB601-5726-4823-B91B-976C18773304" rel="related"/>
+            <ClientAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <AdapterType kb="ROR" kxe="false">Client</AdapterType>
+                <DynamicReconfigurationConnectorName kb="CUD" kxe="false">U9040.MR9.78AE74X-V118-C1218</DynamicReconfigurationConnectorName>
+                <LocationCode kxe="false" kb="ROR">U9040.MR9.78AE74X-V118-C1218</LocationCode>
+                <LocalPartitionID kxe="false" kb="CUR">118</LocalPartitionID>
+                <RequiredAdapter kxe="false" kb="CUD">false</RequiredAdapter>
+                <VariedOn kb="CUD" kxe="true">true</VariedOn>
+                <VirtualSlotNumber kxe="false" kb="COD">1218</VirtualSlotNumber>
+                <ConnectingPartitionID kxe="false" kb="CUR">1</ConnectingPartitionID>
+                <ConnectingVirtualSlotNumber kxe="false" kb="CUR">1218</ConnectingVirtualSlotNumber>
+                <WWPNs kb="CUR" kxe="false">c050760680830090 c050760680830091</WWPNs>
+            </ClientAdapter>
+            <Port kxe="false" kb="CUR" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV779-P1-C5-T2</LocationCode>
+                <PortName kb="CUR" kxe="false">fcs9</PortName>
+                <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV779-P1-C5-T2</UniqueDeviceID>
+                <WWPN kb="CUR" kxe="false">100000109b5ad384</WWPN>
+                <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad384</WWNN>
+                <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
+                <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+            </Port>
+            <ServerAdapter kb="CUR" kxe="false" schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <AdapterType kb="ROR" kxe="false">Server</AdapterType>
+                <DynamicReconfigurationConnectorName kb="CUD" kxe="false">U9040.MR9.78AE74X-V1-C1218</DynamicReconfigurationConnectorName>
+                <LocationCode kxe="false" kb="ROR">U9040.MR9.78AE74X-V1-C1218</LocationCode>
+                <LocalPartitionID kxe="false" kb="CUR">1</LocalPartitionID>
+                <RequiredAdapter kxe="false" kb="CUD">false</RequiredAdapter>
+                <VariedOn kb="CUD" kxe="true">true</VariedOn>
+                <VirtualSlotNumber kxe="false" kb="COD">1218</VirtualSlotNumber>
+                <AdapterName kb="CUR" kxe="false">vfchost39</AdapterName>
+                <ConnectingPartitionID kxe="false" kb="CUR">118</ConnectingPartitionID>
+                <ConnectingVirtualSlotNumber kxe="false" kb="CUR">1218</ConnectingVirtualSlotNumber>
+                <UniqueDeviceID kxe="false" kb="CUR">1dU9040.MR9.78AE74X-V1-C1218</UniqueDeviceID>
+                <MapPort kxe="false" kb="CUR">fcs9</MapPort>
+                <PhysicalPort kxe="false" kb="CUD" schemaVersion="V1_0">
+                    <Metadata>
+                        <Atom/>
+                    </Metadata>
+                    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV779-P1-C5-T2</LocationCode>
+                    <PortName kb="CUR" kxe="false">fcs9</PortName>
+                    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV779-P1-C5-T2</UniqueDeviceID>
+                    <WWPN kb="CUR" kxe="false">100000109b5ad384</WWPN>
+                    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad384</WWNN>
+                    <AvailablePorts kxe="true" kb="ROR">61</AvailablePorts>
+                    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+                </PhysicalPort>
+            </ServerAdapter>
+        </VirtualFibreChannelMapping>
     </VirtualFibreChannelMappings>
     <VirtualSCSIMappings group="ViosSCSIMapping" kxe="false" kb="CUD" schemaVersion="V1_0">
         <Metadata>
@@ -7020,6 +7288,25 @@
                 <CurrentCapacityPercentage ksv="V1_3_0" kxe="false" kb="COD">2.0%</CurrentCapacityPercentage>
                 <RelatedSRIOVPhysicalPortID ksv="V1_3_0" kxe="false" kb="COR">0</RelatedSRIOVPhysicalPortID>
                 <RelatedSRIOVLogicalPort ksv="V1_3_0" kxe="false" kb="ROR" href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C/SRIOVEthernetLogicalPort/a5dfe50e-323d-3c4b-8594-eb6261e47f4a" rel="related"/>
+                <DesiredCapacityPercentage ksv="V1_4_0" kb="ROR" kxe="false">2.0%</DesiredCapacityPercentage>
+                <MaxCapacityPercentage ksv="V1_6_0" kxe="false" kb="COD">100.0%</MaxCapacityPercentage>
+                <DesiredMaxCapacityPercentage ksv="V1_6_0" kxe="false" kb="ROR">100.0%</DesiredMaxCapacityPercentage>
+            </VirtualNICSRIOVBackingDevice>
+        </VirtualNICBackingDeviceChoice>
+        <VirtualNICBackingDeviceChoice>
+            <VirtualNICSRIOVBackingDevice schemaVersion="V1_0">
+                <Metadata>
+                    <Atom/>
+                </Metadata>
+                <DeviceType ksv="V1_3_0" kxe="false" kb="COR">SRIOV</DeviceType>
+                <AssociatedVirtualIOServer ksv="V1_3_0" kxe="false" kb="COR" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/727005ab-1106-314e-9ca0-6e68670eca53/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C" rel="related"/>
+                <IsActive ksv="V1_4_0" kxe="false" kb="ROR">false</IsActive>
+                <Status ksv="V1_4_0" kxe="false" kb="ROR">OPERATIONAL</Status>
+                <FailOverPriority ksv="V1_4_0" kxe="false" kb="CUD">55</FailOverPriority>
+                <RelatedSRIOVAdapterID ksv="V1_3_0" kxe="false" kb="COR">7</RelatedSRIOVAdapterID>
+                <CurrentCapacityPercentage ksv="V1_3_0" kxe="false" kb="COD">2.0%</CurrentCapacityPercentage>
+                <RelatedSRIOVPhysicalPortID ksv="V1_3_0" kxe="false" kb="COR">1</RelatedSRIOVPhysicalPortID>
+                <RelatedSRIOVLogicalPort ksv="V1_3_0" kxe="false" kb="ROR" href="https://cahmc2:12443/rest/api/uom/VirtualIOServer/06A35744-2286-40A4-BA6E-00AAEDBFC86C/SRIOVEthernetLogicalPort/092a5538-9b3d-375a-84b6-0cc9ff411b98" rel="related"/>
                 <DesiredCapacityPercentage ksv="V1_4_0" kb="ROR" kxe="false">2.0%</DesiredCapacityPercentage>
                 <MaxCapacityPercentage ksv="V1_6_0" kxe="false" kb="COD">100.0%</MaxCapacityPercentage>
                 <DesiredMaxCapacityPercentage ksv="V1_6_0" kxe="false" kb="ROR">100.0%</DesiredMaxCapacityPercentage>

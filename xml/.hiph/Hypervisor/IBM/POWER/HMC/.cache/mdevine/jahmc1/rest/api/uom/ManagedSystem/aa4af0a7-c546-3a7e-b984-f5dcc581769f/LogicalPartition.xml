@@ -1,14 +1,14 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
     <id>bdfa4307-d136-3a5c-9a53-2de26fa89117</id>
-    <updated>2020-12-07T19:29:41.532-05:00</updated>
+    <updated>2021-01-12T11:13:13.014-05:00</updated>
     <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition"/>
     <link rel="MANAGEMENT_CONSOLE" href="https://jahmc1:12443/rest/api/uom/ManagementConsole/7f1fc3bc-1af2-37c7-a23d-bfd56d2dbc1b"/>
     <generator>IBM Power Systems Management Console</generator>
     <entry>
         <id>53A3F4A7-4B75-44ED-8A13-BE3733035B54</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.438-05:00</published>
+        <published>2021-01-12T11:13:14.485-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/53A3F4A7-4B75-44ED-8A13-BE3733035B54"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -19,7 +19,7 @@
     <Metadata>
         <Atom>
             <AtomID>53A3F4A7-4B75-44ED-8A13-BE3733035B54</AtomID>
-            <AtomCreated>1607356813397</AtomCreated>
+            <AtomCreated>1610467994179</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -201,7 +201,7 @@
     <entry>
         <id>3EE11EE6-E023-4005-A9F5-956EB36B8F73</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.442-05:00</published>
+        <published>2021-01-12T11:13:14.488-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/3EE11EE6-E023-4005-A9F5-956EB36B8F73"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -212,7 +212,7 @@
     <Metadata>
         <Atom>
             <AtomID>3EE11EE6-E023-4005-A9F5-956EB36B8F73</AtomID>
-            <AtomCreated>1607356813398</AtomCreated>
+            <AtomCreated>1610467994253</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -394,7 +394,7 @@
     <entry>
         <id>12C02AD9-09AB-4994-97F9-0CC87D57B3EE</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.447-05:00</published>
+        <published>2021-01-12T11:13:14.490-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/12C02AD9-09AB-4994-97F9-0CC87D57B3EE"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -405,7 +405,7 @@
     <Metadata>
         <Atom>
             <AtomID>12C02AD9-09AB-4994-97F9-0CC87D57B3EE</AtomID>
-            <AtomCreated>1607356813399</AtomCreated>
+            <AtomCreated>1610467994264</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -587,7 +587,7 @@
     <entry>
         <id>2D021C8F-97F1-4175-A2B5-98E39B13FAE5</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.452-05:00</published>
+        <published>2021-01-12T11:13:14.493-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/2D021C8F-97F1-4175-A2B5-98E39B13FAE5"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -598,7 +598,7 @@
     <Metadata>
         <Atom>
             <AtomID>2D021C8F-97F1-4175-A2B5-98E39B13FAE5</AtomID>
-            <AtomCreated>1607356813399</AtomCreated>
+            <AtomCreated>1610467994275</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -781,7 +781,7 @@
     <entry>
         <id>45752ADF-3A55-404E-A74D-72FD1F4384D7</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.456-05:00</published>
+        <published>2021-01-12T11:13:14.495-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/45752ADF-3A55-404E-A74D-72FD1F4384D7"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -792,7 +792,7 @@
     <Metadata>
         <Atom>
             <AtomID>45752ADF-3A55-404E-A74D-72FD1F4384D7</AtomID>
-            <AtomCreated>1607356813400</AtomCreated>
+            <AtomCreated>1610467994287</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -974,7 +974,7 @@
     <entry>
         <id>11F1E86B-62A0-45C2-B8AF-D6FFF0C8D7AE</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.460-05:00</published>
+        <published>2021-01-12T11:13:14.498-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/11F1E86B-62A0-45C2-B8AF-D6FFF0C8D7AE"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -1168,18 +1168,18 @@
     <entry>
         <id>52CB6570-4666-4ECE-9B88-FC4D00846AA5</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.465-05:00</published>
+        <published>2021-01-12T11:13:14.500-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/52CB6570-4666-4ECE-9B88-FC4D00846AA5"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">615497474</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">1515005823</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>52CB6570-4666-4ECE-9B88-FC4D00846AA5</AtomID>
-            <AtomCreated>1607356813401</AtomCreated>
+            <AtomCreated>1610467994311</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1196,7 +1196,7 @@
     <IsVirtualTrustedPlatformModuleEnabled kb="UOD" kxe="false">false</IsVirtualTrustedPlatformModuleEnabled>
     <KeylockPosition kb="CUD" kxe="false">normal</KeylockPosition>
     <LogicalSerialNumber kxe="false" kb="ROR">78AE70X6A</LogicalSerialNumber>
-    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
     <PartitionCapabilities kxe="false" kb="ROR" schemaVersion="V1_0">
         <Metadata>
             <Atom/>
@@ -1351,9 +1351,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000452/disk@50000973501ba01f,1000000000000:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030304434</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030304434</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@3000057e/disk@50000973501ba05e,1000000000000:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030304435</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030304435</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -1361,7 +1361,7 @@
     <entry>
         <id>42A4C60E-F781-4888-9A54-6FC3FBBDAD8A</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.471-05:00</published>
+        <published>2021-01-12T11:13:14.503-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/42A4C60E-F781-4888-9A54-6FC3FBBDAD8A"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -1372,7 +1372,7 @@
     <Metadata>
         <Atom>
             <AtomID>42A4C60E-F781-4888-9A54-6FC3FBBDAD8A</AtomID>
-            <AtomCreated>1607356813402</AtomCreated>
+            <AtomCreated>1610467994321</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1555,7 +1555,7 @@
     <entry>
         <id>6C6DA864-DF52-4F30-8BC1-FF7D34BCD90C</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.475-05:00</published>
+        <published>2021-01-12T11:13:14.505-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/6C6DA864-DF52-4F30-8BC1-FF7D34BCD90C"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -1566,7 +1566,7 @@
     <Metadata>
         <Atom>
             <AtomID>6C6DA864-DF52-4F30-8BC1-FF7D34BCD90C</AtomID>
-            <AtomCreated>1607356813403</AtomCreated>
+            <AtomCreated>1610467994334</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1748,7 +1748,7 @@
     <entry>
         <id>71FC6B55-D23E-47A7-8CBD-5330B46A631A</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.479-05:00</published>
+        <published>2021-01-12T11:13:14.509-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/71FC6B55-D23E-47A7-8CBD-5330B46A631A"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -1759,7 +1759,7 @@
     <Metadata>
         <Atom>
             <AtomID>71FC6B55-D23E-47A7-8CBD-5330B46A631A</AtomID>
-            <AtomCreated>1607356813403</AtomCreated>
+            <AtomCreated>1610467994344</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1938,7 +1938,7 @@
     <entry>
         <id>0EB1F82D-571C-474F-A18E-25BFCD630E48</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.483-05:00</published>
+        <published>2021-01-12T11:13:14.512-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/0EB1F82D-571C-474F-A18E-25BFCD630E48"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -1949,7 +1949,7 @@
     <Metadata>
         <Atom>
             <AtomID>0EB1F82D-571C-474F-A18E-25BFCD630E48</AtomID>
-            <AtomCreated>1607356813404</AtomCreated>
+            <AtomCreated>1610467994364</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2131,7 +2131,7 @@
     <entry>
         <id>7A228DA3-B99B-4565-88B8-13A394892EF6</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.487-05:00</published>
+        <published>2021-01-12T11:13:14.516-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/7A228DA3-B99B-4565-88B8-13A394892EF6"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -2142,7 +2142,7 @@
     <Metadata>
         <Atom>
             <AtomID>7A228DA3-B99B-4565-88B8-13A394892EF6</AtomID>
-            <AtomCreated>1607356813405</AtomCreated>
+            <AtomCreated>1610467994374</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2324,7 +2324,7 @@
     <entry>
         <id>2C857852-F825-4598-ACF3-6068C717528E</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.491-05:00</published>
+        <published>2021-01-12T11:13:14.520-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/2C857852-F825-4598-ACF3-6068C717528E"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -2335,7 +2335,7 @@
     <Metadata>
         <Atom>
             <AtomID>2C857852-F825-4598-ACF3-6068C717528E</AtomID>
-            <AtomCreated>1607356813406</AtomCreated>
+            <AtomCreated>1610467994385</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2517,7 +2517,7 @@
     <entry>
         <id>113E875A-EF9D-4CBE-9C7B-532F78851D57</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.495-05:00</published>
+        <published>2021-01-12T11:13:14.523-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/113E875A-EF9D-4CBE-9C7B-532F78851D57"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -2528,7 +2528,7 @@
     <Metadata>
         <Atom>
             <AtomID>113E875A-EF9D-4CBE-9C7B-532F78851D57</AtomID>
-            <AtomCreated>1607356813407</AtomCreated>
+            <AtomCreated>1610467994395</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2711,7 +2711,7 @@
     <entry>
         <id>4B273E55-6EA2-4EC6-BEE8-BA03F7C30394</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.499-05:00</published>
+        <published>2021-01-12T11:13:14.527-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/4B273E55-6EA2-4EC6-BEE8-BA03F7C30394"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -2722,7 +2722,7 @@
     <Metadata>
         <Atom>
             <AtomID>4B273E55-6EA2-4EC6-BEE8-BA03F7C30394</AtomID>
-            <AtomCreated>1607356813407</AtomCreated>
+            <AtomCreated>1610467994406</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2905,7 +2905,7 @@
     <entry>
         <id>20C6BCB5-B178-4425-89E8-CED835E26807</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.503-05:00</published>
+        <published>2021-01-12T11:13:14.530-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/20C6BCB5-B178-4425-89E8-CED835E26807"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -2916,7 +2916,7 @@
     <Metadata>
         <Atom>
             <AtomID>20C6BCB5-B178-4425-89E8-CED835E26807</AtomID>
-            <AtomCreated>1607356813408</AtomCreated>
+            <AtomCreated>1610467994417</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -3099,7 +3099,7 @@
     <entry>
         <id>5F49FE78-8B16-4347-BF0D-B71A7513894E</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.508-05:00</published>
+        <published>2021-01-12T11:13:14.532-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/5F49FE78-8B16-4347-BF0D-B71A7513894E"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -3110,7 +3110,7 @@
     <Metadata>
         <Atom>
             <AtomID>5F49FE78-8B16-4347-BF0D-B71A7513894E</AtomID>
-            <AtomCreated>1607356813409</AtomCreated>
+            <AtomCreated>1610467994428</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -3293,7 +3293,7 @@
     <entry>
         <id>31E908B6-2B8E-4E50-AD08-9E853F8F5216</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.512-05:00</published>
+        <published>2021-01-12T11:13:14.535-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/31E908B6-2B8E-4E50-AD08-9E853F8F5216"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -3304,7 +3304,7 @@
     <Metadata>
         <Atom>
             <AtomID>31E908B6-2B8E-4E50-AD08-9E853F8F5216</AtomID>
-            <AtomCreated>1607356813410</AtomCreated>
+            <AtomCreated>1610467994439</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -3487,7 +3487,7 @@
     <entry>
         <id>2ED7F4D2-9B60-4AEA-A2B1-466E3D8D86C0</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.515-05:00</published>
+        <published>2021-01-12T11:13:14.537-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/2ED7F4D2-9B60-4AEA-A2B1-466E3D8D86C0"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -3498,7 +3498,7 @@
     <Metadata>
         <Atom>
             <AtomID>2ED7F4D2-9B60-4AEA-A2B1-466E3D8D86C0</AtomID>
-            <AtomCreated>1607356813411</AtomCreated>
+            <AtomCreated>1610467994459</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -3683,7 +3683,7 @@
     <entry>
         <id>22208B88-F953-4535-8875-2BC1A0CC0592</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:29:43.519-05:00</published>
+        <published>2021-01-12T11:13:14.540-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/22208B88-F953-4535-8875-2BC1A0CC0592"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -3694,7 +3694,7 @@
     <Metadata>
         <Atom>
             <AtomID>22208B88-F953-4535-8875-2BC1A0CC0592</AtomID>
-            <AtomCreated>1607356813411</AtomCreated>
+            <AtomCreated>1610467994470</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>

@@ -1,14 +1,14 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
     <id>8f4724cb-5f43-31c5-b03f-34fb2a5653e4</id>
-    <updated>2020-12-07T19:34:17.908-05:00</updated>
+    <updated>2021-01-12T10:39:06.926-05:00</updated>
     <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition"/>
     <link rel="MANAGEMENT_CONSOLE" href="https://cahmc2:12443/rest/api/uom/ManagementConsole/d63072d2-9632-3c75-8b68-9cad816ae25f"/>
     <generator>IBM Power Systems Management Console</generator>
     <entry>
         <id>6B6AA845-EAD4-43C1-99B8-8022FD895C84</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.138-05:00</published>
+        <published>2021-01-12T10:39:08.594-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/6B6AA845-EAD4-43C1-99B8-8022FD895C84"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -19,7 +19,7 @@
     <Metadata>
         <Atom>
             <AtomID>6B6AA845-EAD4-43C1-99B8-8022FD895C84</AtomID>
-            <AtomCreated>1607387659701</AtomCreated>
+            <AtomCreated>1610465948235</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -201,18 +201,18 @@
     <entry>
         <id>230943AC-5EA3-487E-80FD-5E53053D0591</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.141-05:00</published>
+        <published>2021-01-12T10:39:08.596-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/230943AC-5EA3-487E-80FD-5E53053D0591"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">661007889</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">1219968528</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>230943AC-5EA3-487E-80FD-5E53053D0591</AtomID>
-            <AtomCreated>1607387659780</AtomCreated>
+            <AtomCreated>1610465948331</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -220,7 +220,7 @@
     <AvailabilityPriority kb="UOD" kxe="false">127</AvailabilityPriority>
     <CurrentProcessorCompatibilityMode kb="ROO" kxe="false">POWER9_Base</CurrentProcessorCompatibilityMode>
     <CurrentProfileSync kxe="false" kb="CUD">Disabled</CurrentProfileSync>
-    <IsBootable ksv="V1_3_0" kb="ROO" kxe="false">true</IsBootable>
+    <IsBootable ksv="V1_3_0" kb="ROO" kxe="false">false</IsBootable>
     <IsConnectionMonitoringEnabled kxe="false" kb="UOD">true</IsConnectionMonitoringEnabled>
     <IsOperationInProgress kb="ROR" kxe="false">false</IsOperationInProgress>
     <IsRedundantErrorPathReportingEnabled kxe="false" kb="UOD">false</IsRedundantErrorPathReportingEnabled>
@@ -260,28 +260,28 @@
         <ActiveMemoryExpansionEnabled kxe="false" kb="CUD">false</ActiveMemoryExpansionEnabled>
         <ActiveMemorySharingEnabled kxe="false" kb="CUD">false</ActiveMemorySharingEnabled>
         <DesiredHugePageCount kxe="false" kb="CUD">0</DesiredHugePageCount>
-        <DesiredMemory kxe="false" kb="CUD">24576</DesiredMemory>
+        <DesiredMemory kxe="false" kb="CUD">0</DesiredMemory>
         <ExpansionFactor kb="CUD" kxe="false">0.0</ExpansionFactor>
         <HardwarePageTableRatio kb="CUD" kxe="false">6</HardwarePageTableRatio>
         <MaximumHugePageCount kxe="false" kb="CUD">0</MaximumHugePageCount>
-        <MaximumMemory kxe="false" kb="CUD">102400</MaximumMemory>
+        <MaximumMemory kxe="false" kb="CUD">0</MaximumMemory>
         <MinimumHugePageCount kxe="false" kb="CUD">0</MinimumHugePageCount>
-        <MinimumMemory kxe="false" kb="CUD">10240</MinimumMemory>
+        <MinimumMemory kxe="false" kb="CUD">0</MinimumMemory>
         <CurrentExpansionFactor kb="ROR" kxe="false">0.0</CurrentExpansionFactor>
         <CurrentHardwarePageTableRatio kxe="false" kb="ROR">6</CurrentHardwarePageTableRatio>
         <CurrentHugePageCount kb="ROR" kxe="false">0</CurrentHugePageCount>
         <CurrentMaximumHugePageCount kb="ROR" kxe="false">0</CurrentMaximumHugePageCount>
-        <CurrentMaximumMemory kb="ROR" kxe="false">102400</CurrentMaximumMemory>
-        <CurrentMemory kxe="false" kb="ROR">24576</CurrentMemory>
+        <CurrentMaximumMemory kb="ROR" kxe="false">0</CurrentMaximumMemory>
+        <CurrentMemory kxe="false" kb="ROR">0</CurrentMemory>
         <CurrentMinimumHugePageCount kxe="false" kb="ROR">0</CurrentMinimumHugePageCount>
-        <CurrentMinimumMemory kb="ROR" kxe="false">10240</CurrentMinimumMemory>
+        <CurrentMinimumMemory kb="ROR" kxe="false">0</CurrentMinimumMemory>
         <MemoryExpansionHardwareAccessEnabled kxe="false" kb="ROR">true</MemoryExpansionHardwareAccessEnabled>
         <MemoryEncryptionHardwareAccessEnabled kb="ROR" kxe="false">true</MemoryEncryptionHardwareAccessEnabled>
         <MemoryExpansionEnabled kb="ROR" kxe="false">false</MemoryExpansionEnabled>
         <RedundantErrorPathReportingEnabled kb="ROR" kxe="false">false</RedundantErrorPathReportingEnabled>
         <RuntimeHugePageCount kxe="false" kb="ROR">0</RuntimeHugePageCount>
-        <RuntimeMemory kxe="false" kb="ROR">512</RuntimeMemory>
-        <RuntimeMinimumMemory kxe="false" kb="ROR">10240</RuntimeMinimumMemory>
+        <RuntimeMemory kxe="false" kb="ROR">0</RuntimeMemory>
+        <RuntimeMinimumMemory kxe="false" kb="ROR">0</RuntimeMinimumMemory>
         <SharedMemoryEnabled kxe="false" kb="CUD">false</SharedMemoryEnabled>
         <PhysicalPageTableRatio ksv="V1_6_0" kb="CUD" kxe="false">6</PhysicalPageTableRatio>
     </PartitionMemoryConfiguration>
@@ -295,12 +295,12 @@
             <Metadata>
                 <Atom/>
             </Metadata>
-            <DesiredProcessingUnits kxe="false" kb="CUD">1.6</DesiredProcessingUnits>
-            <DesiredVirtualProcessors kxe="false" kb="CUD">4</DesiredVirtualProcessors>
-            <MaximumProcessingUnits kb="CUD" kxe="false">8</MaximumProcessingUnits>
-            <MaximumVirtualProcessors kb="CUD" kxe="false">20</MaximumVirtualProcessors>
-            <MinimumProcessingUnits kb="CUD" kxe="false">0.8</MinimumProcessingUnits>
-            <MinimumVirtualProcessors kxe="false" kb="CUD">1</MinimumVirtualProcessors>
+            <DesiredProcessingUnits kxe="false" kb="CUD">0</DesiredProcessingUnits>
+            <DesiredVirtualProcessors kxe="false" kb="CUD">0</DesiredVirtualProcessors>
+            <MaximumProcessingUnits kb="CUD" kxe="false">0</MaximumProcessingUnits>
+            <MaximumVirtualProcessors kb="CUD" kxe="false">0</MaximumVirtualProcessors>
+            <MinimumProcessingUnits kb="CUD" kxe="false">0</MinimumProcessingUnits>
+            <MinimumVirtualProcessors kxe="false" kb="CUD">0</MinimumVirtualProcessors>
             <SharedProcessorPoolID kxe="false" kb="CUD">0</SharedProcessorPoolID>
             <UncappedWeight kb="CUD" kxe="false">128</UncappedWeight>
         </SharedProcessorConfiguration>
@@ -312,14 +312,14 @@
             <Metadata>
                 <Atom/>
             </Metadata>
-            <AllocatedVirtualProcessors kxe="false" kb="ROR">4</AllocatedVirtualProcessors>
-            <CurrentMaximumProcessingUnits kb="ROR" kxe="false">8</CurrentMaximumProcessingUnits>
-            <CurrentMinimumProcessingUnits kxe="false" kb="ROR">0.8</CurrentMinimumProcessingUnits>
-            <CurrentProcessingUnits kxe="false" kb="ROR">1.6</CurrentProcessingUnits>
+            <AllocatedVirtualProcessors kxe="false" kb="ROR">0</AllocatedVirtualProcessors>
+            <CurrentMaximumProcessingUnits kb="ROR" kxe="false">0</CurrentMaximumProcessingUnits>
+            <CurrentMinimumProcessingUnits kxe="false" kb="ROR">0</CurrentMinimumProcessingUnits>
+            <CurrentProcessingUnits kxe="false" kb="ROR">0</CurrentProcessingUnits>
             <CurrentSharedProcessorPoolID kxe="false" kb="ROR">0</CurrentSharedProcessorPoolID>
             <CurrentUncappedWeight kxe="false" kb="ROR">128</CurrentUncappedWeight>
-            <CurrentMinimumVirtualProcessors kxe="false" kb="ROR">1</CurrentMinimumVirtualProcessors>
-            <CurrentMaximumVirtualProcessors kb="ROR" kxe="false">20</CurrentMaximumVirtualProcessors>
+            <CurrentMinimumVirtualProcessors kxe="false" kb="ROR">0</CurrentMinimumVirtualProcessors>
+            <CurrentMaximumVirtualProcessors kb="ROR" kxe="false">0</CurrentMaximumVirtualProcessors>
             <RuntimeProcessingUnits kxe="false" kb="ROR">0</RuntimeProcessingUnits>
             <RuntimeUncappedWeight kb="ROR" kxe="false">0</RuntimeUncappedWeight>
         </CurrentSharedProcessorConfiguration>
@@ -393,18 +393,18 @@
     <entry>
         <id>4E0D57D1-580F-419B-8079-B6C1B3169F2A</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.144-05:00</published>
+        <published>2021-01-12T10:39:08.598-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/4E0D57D1-580F-419B-8079-B6C1B3169F2A"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">117358481</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">83251018</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>4E0D57D1-580F-419B-8079-B6C1B3169F2A</AtomID>
-            <AtomCreated>1607387659792</AtomCreated>
+            <AtomCreated>1610465948341</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -421,7 +421,7 @@
     <IsVirtualTrustedPlatformModuleEnabled kb="UOD" kxe="false">false</IsVirtualTrustedPlatformModuleEnabled>
     <KeylockPosition kb="CUD" kxe="false">normal</KeylockPosition>
     <LogicalSerialNumber kxe="false" kb="ROR">78AE73X139</LogicalSerialNumber>
-    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
     <PartitionCapabilities kxe="false" kb="ROR" schemaVersion="V1_0">
         <Metadata>
             <Atom/>
@@ -576,9 +576,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000d55/disk@50000973501b985a:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323245</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323245</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000c29/disk@50000973501b995b,1000000000000:2 /vdevice/vfc-client@30000c8d/disk@50000973501b995b,1000000000000:2 /vdevice/vfc-client@30000cf1/disk@50000973501b991a,1000000000000:2 /vdevice/vfc-client@30000d55/disk@50000973501b985a,1000000000000:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323246</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323246</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -586,7 +586,7 @@
     <entry>
         <id>3E599D68-9792-42A4-9B45-B02906ADE9F3</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.148-05:00</published>
+        <published>2021-01-12T10:39:08.601-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/3E599D68-9792-42A4-9B45-B02906ADE9F3"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -597,7 +597,7 @@
     <Metadata>
         <Atom>
             <AtomID>3E599D68-9792-42A4-9B45-B02906ADE9F3</AtomID>
-            <AtomCreated>1607387659804</AtomCreated>
+            <AtomCreated>1610465948357</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -777,18 +777,18 @@
     <entry>
         <id>71959676-A894-4724-BB7C-514254E8AB7A</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.150-05:00</published>
+        <published>2021-01-12T10:39:08.603-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/71959676-A894-4724-BB7C-514254E8AB7A"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-1759714038</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-1672521502</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>71959676-A894-4724-BB7C-514254E8AB7A</AtomID>
-            <AtomCreated>1607387659827</AtomCreated>
+            <AtomCreated>1610465948368</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -960,9 +960,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000d52/disk@50000973501b991d,1000000000000:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313741</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313741</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000d52/disk@50000973501b989d:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313739</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313739</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -970,18 +970,18 @@
     <entry>
         <id>7E132CA7-078C-4783-ABE8-410E0130EDD0</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.160-05:00</published>
+        <published>2021-01-12T10:39:08.605-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/7E132CA7-078C-4783-ABE8-410E0130EDD0"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">91465179</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">612937038</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>7E132CA7-078C-4783-ABE8-410E0130EDD0</AtomID>
-            <AtomCreated>1607387659840</AtomCreated>
+            <AtomCreated>1610465948378</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -989,7 +989,7 @@
     <AvailabilityPriority kb="UOD" kxe="false">127</AvailabilityPriority>
     <CurrentProcessorCompatibilityMode kb="ROO" kxe="false">POWER8</CurrentProcessorCompatibilityMode>
     <CurrentProfileSync kxe="false" kb="CUD">Disabled</CurrentProfileSync>
-    <IsBootable ksv="V1_3_0" kb="ROO" kxe="false">true</IsBootable>
+    <IsBootable ksv="V1_3_0" kb="ROO" kxe="false">false</IsBootable>
     <IsConnectionMonitoringEnabled kxe="false" kb="UOD">true</IsConnectionMonitoringEnabled>
     <IsOperationInProgress kb="ROR" kxe="false">false</IsOperationInProgress>
     <IsRedundantErrorPathReportingEnabled kxe="false" kb="UOD">false</IsRedundantErrorPathReportingEnabled>
@@ -1029,28 +1029,28 @@
         <ActiveMemoryExpansionEnabled kxe="false" kb="CUD">false</ActiveMemoryExpansionEnabled>
         <ActiveMemorySharingEnabled kxe="false" kb="CUD">false</ActiveMemorySharingEnabled>
         <DesiredHugePageCount kxe="false" kb="CUD">0</DesiredHugePageCount>
-        <DesiredMemory kxe="false" kb="CUD">122880</DesiredMemory>
+        <DesiredMemory kxe="false" kb="CUD">0</DesiredMemory>
         <ExpansionFactor kb="CUD" kxe="false">0.0</ExpansionFactor>
         <HardwarePageTableRatio kb="CUD" kxe="false">6</HardwarePageTableRatio>
         <MaximumHugePageCount kxe="false" kb="CUD">0</MaximumHugePageCount>
-        <MaximumMemory kxe="false" kb="CUD">153600</MaximumMemory>
+        <MaximumMemory kxe="false" kb="CUD">0</MaximumMemory>
         <MinimumHugePageCount kxe="false" kb="CUD">0</MinimumHugePageCount>
-        <MinimumMemory kxe="false" kb="CUD">10240</MinimumMemory>
+        <MinimumMemory kxe="false" kb="CUD">0</MinimumMemory>
         <CurrentExpansionFactor kb="ROR" kxe="false">0.0</CurrentExpansionFactor>
         <CurrentHardwarePageTableRatio kxe="false" kb="ROR">6</CurrentHardwarePageTableRatio>
         <CurrentHugePageCount kb="ROR" kxe="false">0</CurrentHugePageCount>
         <CurrentMaximumHugePageCount kb="ROR" kxe="false">0</CurrentMaximumHugePageCount>
-        <CurrentMaximumMemory kb="ROR" kxe="false">153600</CurrentMaximumMemory>
-        <CurrentMemory kxe="false" kb="ROR">122880</CurrentMemory>
+        <CurrentMaximumMemory kb="ROR" kxe="false">0</CurrentMaximumMemory>
+        <CurrentMemory kxe="false" kb="ROR">0</CurrentMemory>
         <CurrentMinimumHugePageCount kxe="false" kb="ROR">0</CurrentMinimumHugePageCount>
-        <CurrentMinimumMemory kb="ROR" kxe="false">10240</CurrentMinimumMemory>
+        <CurrentMinimumMemory kb="ROR" kxe="false">0</CurrentMinimumMemory>
         <MemoryExpansionHardwareAccessEnabled kxe="false" kb="ROR">true</MemoryExpansionHardwareAccessEnabled>
         <MemoryEncryptionHardwareAccessEnabled kb="ROR" kxe="false">true</MemoryEncryptionHardwareAccessEnabled>
         <MemoryExpansionEnabled kb="ROR" kxe="false">false</MemoryExpansionEnabled>
         <RedundantErrorPathReportingEnabled kb="ROR" kxe="false">false</RedundantErrorPathReportingEnabled>
         <RuntimeHugePageCount kxe="false" kb="ROR">0</RuntimeHugePageCount>
-        <RuntimeMemory kxe="false" kb="ROR">256</RuntimeMemory>
-        <RuntimeMinimumMemory kxe="false" kb="ROR">10240</RuntimeMinimumMemory>
+        <RuntimeMemory kxe="false" kb="ROR">0</RuntimeMemory>
+        <RuntimeMinimumMemory kxe="false" kb="ROR">0</RuntimeMinimumMemory>
         <SharedMemoryEnabled kxe="false" kb="CUD">false</SharedMemoryEnabled>
         <PhysicalPageTableRatio ksv="V1_6_0" kb="CUD" kxe="false">6</PhysicalPageTableRatio>
     </PartitionMemoryConfiguration>
@@ -1064,12 +1064,12 @@
             <Metadata>
                 <Atom/>
             </Metadata>
-            <DesiredProcessingUnits kxe="false" kb="CUD">1</DesiredProcessingUnits>
-            <DesiredVirtualProcessors kxe="false" kb="CUD">8</DesiredVirtualProcessors>
-            <MaximumProcessingUnits kb="CUD" kxe="false">8</MaximumProcessingUnits>
-            <MaximumVirtualProcessors kb="CUD" kxe="false">20</MaximumVirtualProcessors>
-            <MinimumProcessingUnits kb="CUD" kxe="false">0.8</MinimumProcessingUnits>
-            <MinimumVirtualProcessors kxe="false" kb="CUD">2</MinimumVirtualProcessors>
+            <DesiredProcessingUnits kxe="false" kb="CUD">0</DesiredProcessingUnits>
+            <DesiredVirtualProcessors kxe="false" kb="CUD">0</DesiredVirtualProcessors>
+            <MaximumProcessingUnits kb="CUD" kxe="false">0</MaximumProcessingUnits>
+            <MaximumVirtualProcessors kb="CUD" kxe="false">0</MaximumVirtualProcessors>
+            <MinimumProcessingUnits kb="CUD" kxe="false">0</MinimumProcessingUnits>
+            <MinimumVirtualProcessors kxe="false" kb="CUD">0</MinimumVirtualProcessors>
             <SharedProcessorPoolID kxe="false" kb="CUD">0</SharedProcessorPoolID>
             <UncappedWeight kb="CUD" kxe="false">128</UncappedWeight>
         </SharedProcessorConfiguration>
@@ -1081,14 +1081,14 @@
             <Metadata>
                 <Atom/>
             </Metadata>
-            <AllocatedVirtualProcessors kxe="false" kb="ROR">8</AllocatedVirtualProcessors>
-            <CurrentMaximumProcessingUnits kb="ROR" kxe="false">8</CurrentMaximumProcessingUnits>
-            <CurrentMinimumProcessingUnits kxe="false" kb="ROR">0.8</CurrentMinimumProcessingUnits>
-            <CurrentProcessingUnits kxe="false" kb="ROR">1</CurrentProcessingUnits>
+            <AllocatedVirtualProcessors kxe="false" kb="ROR">0</AllocatedVirtualProcessors>
+            <CurrentMaximumProcessingUnits kb="ROR" kxe="false">0</CurrentMaximumProcessingUnits>
+            <CurrentMinimumProcessingUnits kxe="false" kb="ROR">0</CurrentMinimumProcessingUnits>
+            <CurrentProcessingUnits kxe="false" kb="ROR">0</CurrentProcessingUnits>
             <CurrentSharedProcessorPoolID kxe="false" kb="ROR">0</CurrentSharedProcessorPoolID>
             <CurrentUncappedWeight kxe="false" kb="ROR">128</CurrentUncappedWeight>
-            <CurrentMinimumVirtualProcessors kxe="false" kb="ROR">2</CurrentMinimumVirtualProcessors>
-            <CurrentMaximumVirtualProcessors kb="ROR" kxe="false">20</CurrentMaximumVirtualProcessors>
+            <CurrentMinimumVirtualProcessors kxe="false" kb="ROR">0</CurrentMinimumVirtualProcessors>
+            <CurrentMaximumVirtualProcessors kb="ROR" kxe="false">0</CurrentMaximumVirtualProcessors>
             <RuntimeProcessingUnits kxe="false" kb="ROR">0</RuntimeProcessingUnits>
             <RuntimeUncappedWeight kb="ROR" kxe="false">0</RuntimeUncappedWeight>
         </CurrentSharedProcessorConfiguration>
@@ -1169,18 +1169,18 @@
     <entry>
         <id>7E225382-8EBB-4C7E-B2EC-2A5491B9E9BC</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.163-05:00</published>
+        <published>2021-01-12T10:39:08.607-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/7E225382-8EBB-4C7E-B2EC-2A5491B9E9BC"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">550580334</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">819714963</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>7E225382-8EBB-4C7E-B2EC-2A5491B9E9BC</AtomID>
-            <AtomCreated>1607387659863</AtomCreated>
+            <AtomCreated>1610465948394</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1188,7 +1188,7 @@
     <AvailabilityPriority kb="UOD" kxe="false">127</AvailabilityPriority>
     <CurrentProcessorCompatibilityMode kb="ROO" kxe="false">POWER8</CurrentProcessorCompatibilityMode>
     <CurrentProfileSync kxe="false" kb="CUD">Disabled</CurrentProfileSync>
-    <IsBootable ksv="V1_3_0" kb="ROO" kxe="false">true</IsBootable>
+    <IsBootable ksv="V1_3_0" kb="ROO" kxe="false">false</IsBootable>
     <IsConnectionMonitoringEnabled kxe="false" kb="UOD">true</IsConnectionMonitoringEnabled>
     <IsOperationInProgress kb="ROR" kxe="false">false</IsOperationInProgress>
     <IsRedundantErrorPathReportingEnabled kxe="false" kb="UOD">false</IsRedundantErrorPathReportingEnabled>
@@ -1228,28 +1228,28 @@
         <ActiveMemoryExpansionEnabled kxe="false" kb="CUD">false</ActiveMemoryExpansionEnabled>
         <ActiveMemorySharingEnabled kxe="false" kb="CUD">false</ActiveMemorySharingEnabled>
         <DesiredHugePageCount kxe="false" kb="CUD">0</DesiredHugePageCount>
-        <DesiredMemory kxe="false" kb="CUD">82944</DesiredMemory>
+        <DesiredMemory kxe="false" kb="CUD">0</DesiredMemory>
         <ExpansionFactor kb="CUD" kxe="false">0.0</ExpansionFactor>
         <HardwarePageTableRatio kb="CUD" kxe="false">6</HardwarePageTableRatio>
         <MaximumHugePageCount kxe="false" kb="CUD">0</MaximumHugePageCount>
-        <MaximumMemory kxe="false" kb="CUD">153600</MaximumMemory>
+        <MaximumMemory kxe="false" kb="CUD">0</MaximumMemory>
         <MinimumHugePageCount kxe="false" kb="CUD">0</MinimumHugePageCount>
-        <MinimumMemory kxe="false" kb="CUD">10240</MinimumMemory>
+        <MinimumMemory kxe="false" kb="CUD">0</MinimumMemory>
         <CurrentExpansionFactor kb="ROR" kxe="false">0.0</CurrentExpansionFactor>
         <CurrentHardwarePageTableRatio kxe="false" kb="ROR">6</CurrentHardwarePageTableRatio>
         <CurrentHugePageCount kb="ROR" kxe="false">0</CurrentHugePageCount>
         <CurrentMaximumHugePageCount kb="ROR" kxe="false">0</CurrentMaximumHugePageCount>
-        <CurrentMaximumMemory kb="ROR" kxe="false">153600</CurrentMaximumMemory>
-        <CurrentMemory kxe="false" kb="ROR">82944</CurrentMemory>
+        <CurrentMaximumMemory kb="ROR" kxe="false">0</CurrentMaximumMemory>
+        <CurrentMemory kxe="false" kb="ROR">0</CurrentMemory>
         <CurrentMinimumHugePageCount kxe="false" kb="ROR">0</CurrentMinimumHugePageCount>
-        <CurrentMinimumMemory kb="ROR" kxe="false">10240</CurrentMinimumMemory>
+        <CurrentMinimumMemory kb="ROR" kxe="false">0</CurrentMinimumMemory>
         <MemoryExpansionHardwareAccessEnabled kxe="false" kb="ROR">true</MemoryExpansionHardwareAccessEnabled>
         <MemoryEncryptionHardwareAccessEnabled kb="ROR" kxe="false">true</MemoryEncryptionHardwareAccessEnabled>
         <MemoryExpansionEnabled kb="ROR" kxe="false">false</MemoryExpansionEnabled>
         <RedundantErrorPathReportingEnabled kb="ROR" kxe="false">false</RedundantErrorPathReportingEnabled>
         <RuntimeHugePageCount kxe="false" kb="ROR">0</RuntimeHugePageCount>
-        <RuntimeMemory kxe="false" kb="ROR">256</RuntimeMemory>
-        <RuntimeMinimumMemory kxe="false" kb="ROR">10240</RuntimeMinimumMemory>
+        <RuntimeMemory kxe="false" kb="ROR">0</RuntimeMemory>
+        <RuntimeMinimumMemory kxe="false" kb="ROR">0</RuntimeMinimumMemory>
         <SharedMemoryEnabled kxe="false" kb="CUD">false</SharedMemoryEnabled>
         <PhysicalPageTableRatio ksv="V1_6_0" kb="CUD" kxe="false">6</PhysicalPageTableRatio>
     </PartitionMemoryConfiguration>
@@ -1263,12 +1263,12 @@
             <Metadata>
                 <Atom/>
             </Metadata>
-            <DesiredProcessingUnits kxe="false" kb="CUD">1</DesiredProcessingUnits>
-            <DesiredVirtualProcessors kxe="false" kb="CUD">4</DesiredVirtualProcessors>
-            <MaximumProcessingUnits kb="CUD" kxe="false">8</MaximumProcessingUnits>
-            <MaximumVirtualProcessors kb="CUD" kxe="false">20</MaximumVirtualProcessors>
-            <MinimumProcessingUnits kb="CUD" kxe="false">0.8</MinimumProcessingUnits>
-            <MinimumVirtualProcessors kxe="false" kb="CUD">1</MinimumVirtualProcessors>
+            <DesiredProcessingUnits kxe="false" kb="CUD">0</DesiredProcessingUnits>
+            <DesiredVirtualProcessors kxe="false" kb="CUD">0</DesiredVirtualProcessors>
+            <MaximumProcessingUnits kb="CUD" kxe="false">0</MaximumProcessingUnits>
+            <MaximumVirtualProcessors kb="CUD" kxe="false">0</MaximumVirtualProcessors>
+            <MinimumProcessingUnits kb="CUD" kxe="false">0</MinimumProcessingUnits>
+            <MinimumVirtualProcessors kxe="false" kb="CUD">0</MinimumVirtualProcessors>
             <SharedProcessorPoolID kxe="false" kb="CUD">0</SharedProcessorPoolID>
             <UncappedWeight kb="CUD" kxe="false">128</UncappedWeight>
         </SharedProcessorConfiguration>
@@ -1280,14 +1280,14 @@
             <Metadata>
                 <Atom/>
             </Metadata>
-            <AllocatedVirtualProcessors kxe="false" kb="ROR">4</AllocatedVirtualProcessors>
-            <CurrentMaximumProcessingUnits kb="ROR" kxe="false">8</CurrentMaximumProcessingUnits>
-            <CurrentMinimumProcessingUnits kxe="false" kb="ROR">0.8</CurrentMinimumProcessingUnits>
-            <CurrentProcessingUnits kxe="false" kb="ROR">1</CurrentProcessingUnits>
+            <AllocatedVirtualProcessors kxe="false" kb="ROR">0</AllocatedVirtualProcessors>
+            <CurrentMaximumProcessingUnits kb="ROR" kxe="false">0</CurrentMaximumProcessingUnits>
+            <CurrentMinimumProcessingUnits kxe="false" kb="ROR">0</CurrentMinimumProcessingUnits>
+            <CurrentProcessingUnits kxe="false" kb="ROR">0</CurrentProcessingUnits>
             <CurrentSharedProcessorPoolID kxe="false" kb="ROR">0</CurrentSharedProcessorPoolID>
             <CurrentUncappedWeight kxe="false" kb="ROR">128</CurrentUncappedWeight>
-            <CurrentMinimumVirtualProcessors kxe="false" kb="ROR">1</CurrentMinimumVirtualProcessors>
-            <CurrentMaximumVirtualProcessors kb="ROR" kxe="false">20</CurrentMaximumVirtualProcessors>
+            <CurrentMinimumVirtualProcessors kxe="false" kb="ROR">0</CurrentMinimumVirtualProcessors>
+            <CurrentMaximumVirtualProcessors kb="ROR" kxe="false">0</CurrentMaximumVirtualProcessors>
             <RuntimeProcessingUnits kxe="false" kb="ROR">0</RuntimeProcessingUnits>
             <RuntimeUncappedWeight kb="ROR" kxe="false">0</RuntimeUncappedWeight>
         </CurrentSharedProcessorConfiguration>
@@ -1364,18 +1364,18 @@
     <entry>
         <id>13A4276A-5C20-446F-9856-73091DB241B6</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.167-05:00</published>
+        <published>2021-01-12T10:39:08.610-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/13A4276A-5C20-446F-9856-73091DB241B6"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">766463190</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-772482627</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>13A4276A-5C20-446F-9856-73091DB241B6</AtomID>
-            <AtomCreated>1607387659888</AtomCreated>
+            <AtomCreated>1610465948408</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">false</AllowPerformanceDataCollection>
@@ -1392,7 +1392,7 @@
     <IsVirtualTrustedPlatformModuleEnabled kb="UOD" kxe="false">false</IsVirtualTrustedPlatformModuleEnabled>
     <KeylockPosition kb="CUD" kxe="false">normal</KeylockPosition>
     <LogicalSerialNumber kxe="false" kb="ROR">78AE73XD6</LogicalSerialNumber>
-    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
     <PartitionCapabilities kxe="false" kb="ROR" schemaVersion="V1_0">
         <Metadata>
             <Atom/>
@@ -1546,9 +1546,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@3000096e/disk@50000973501b98d8,1000000000000:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030333145</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030333145</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@3000096e/disk@50000973501b9958:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030333144</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030333144</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -1556,7 +1556,7 @@
     <entry>
         <id>1D1C6640-B6F8-4B0C-85E3-51355A8B677B</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.169-05:00</published>
+        <published>2021-01-12T10:39:08.612-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/1D1C6640-B6F8-4B0C-85E3-51355A8B677B"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -1567,7 +1567,7 @@
     <Metadata>
         <Atom>
             <AtomID>1D1C6640-B6F8-4B0C-85E3-51355A8B677B</AtomID>
-            <AtomCreated>1607387659900</AtomCreated>
+            <AtomCreated>1610465948418</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1747,18 +1747,18 @@
     <entry>
         <id>4F919C1F-962F-40D4-A8C4-6631115B7385</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.172-05:00</published>
+        <published>2021-01-12T10:39:08.614-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/4F919C1F-962F-40D4-A8C4-6631115B7385"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">1721922236</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-299870466</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>4F919C1F-962F-40D4-A8C4-6631115B7385</AtomID>
-            <AtomCreated>1607387659912</AtomCreated>
+            <AtomCreated>1610465948429</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1930,9 +1930,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000d4e/disk@50000973501b9858,1000000000000:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313845</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313845</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000d4e/disk@50000973501b9918:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313844</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313844</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -1940,7 +1940,7 @@
     <entry>
         <id>7B679A52-733A-40F3-9A3E-1F6E1770F48F</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.178-05:00</published>
+        <published>2021-01-12T10:39:08.616-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/7B679A52-733A-40F3-9A3E-1F6E1770F48F"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -1951,7 +1951,7 @@
     <Metadata>
         <Atom>
             <AtomID>7B679A52-733A-40F3-9A3E-1F6E1770F48F</AtomID>
-            <AtomCreated>1607387659925</AtomCreated>
+            <AtomCreated>1610465948439</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2131,7 +2131,7 @@
     <entry>
         <id>7C485305-727C-4A25-9B6F-229C8810AD86</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.182-05:00</published>
+        <published>2021-01-12T10:39:08.619-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/7C485305-727C-4A25-9B6F-229C8810AD86"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -2142,7 +2142,7 @@
     <Metadata>
         <Atom>
             <AtomID>7C485305-727C-4A25-9B6F-229C8810AD86</AtomID>
-            <AtomCreated>1607387659947</AtomCreated>
+            <AtomCreated>1610465948450</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2327,7 +2327,7 @@
     <entry>
         <id>1FBBAB90-6FFA-4F8F-A0ED-981A42D6BC74</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.185-05:00</published>
+        <published>2021-01-12T10:39:08.621-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/1FBBAB90-6FFA-4F8F-A0ED-981A42D6BC74"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -2338,7 +2338,7 @@
     <Metadata>
         <Atom>
             <AtomID>1FBBAB90-6FFA-4F8F-A0ED-981A42D6BC74</AtomID>
-            <AtomCreated>1607387659968</AtomCreated>
+            <AtomCreated>1610465948463</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2520,7 +2520,7 @@
     <entry>
         <id>5A2D06A8-ABCF-49AC-B24D-E4B577AE3046</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.188-05:00</published>
+        <published>2021-01-12T10:39:08.623-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/5A2D06A8-ABCF-49AC-B24D-E4B577AE3046"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -2531,7 +2531,7 @@
     <Metadata>
         <Atom>
             <AtomID>5A2D06A8-ABCF-49AC-B24D-E4B577AE3046</AtomID>
-            <AtomCreated>1607387659981</AtomCreated>
+            <AtomCreated>1610465948473</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2713,18 +2713,18 @@
     <entry>
         <id>3C56AD1F-D6EE-44BC-8764-A772E2E7C7BC</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.195-05:00</published>
+        <published>2021-01-12T10:39:08.625-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/3C56AD1F-D6EE-44BC-8764-A772E2E7C7BC"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">128292261</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-695998489</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>3C56AD1F-D6EE-44BC-8764-A772E2E7C7BC</AtomID>
-            <AtomCreated>1607387659993</AtomCreated>
+            <AtomCreated>1610465948483</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2894,9 +2894,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000968/disk@50000973501b981a,1000000000000:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323531</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323531</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@3000083c/disk@50000973501b98db:2 /vdevice/vfc-client@300008a0/disk@50000973501b98db:2 /vdevice/vfc-client@30000904/disk@50000973501b989a:2 /vdevice/vfc-client@30000968/disk@50000973501b989a:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323530</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323530</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -2904,18 +2904,18 @@
     <entry>
         <id>254CBE23-8BA4-4CEF-ADD5-843E0F7DF859</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.198-05:00</published>
+        <published>2021-01-12T10:39:08.627-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/254CBE23-8BA4-4CEF-ADD5-843E0F7DF859"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">471984861</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">1288294551</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>254CBE23-8BA4-4CEF-ADD5-843E0F7DF859</AtomID>
-            <AtomCreated>1607387660014</AtomCreated>
+            <AtomCreated>1610465948494</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -2932,7 +2932,7 @@
     <IsVirtualTrustedPlatformModuleEnabled kb="UOD" kxe="false">false</IsVirtualTrustedPlatformModuleEnabled>
     <KeylockPosition kb="CUD" kxe="false">normal</KeylockPosition>
     <LogicalSerialNumber kxe="false" kb="ROR">78AE73XCF</LogicalSerialNumber>
-    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
     <PartitionCapabilities kxe="false" kb="ROR" schemaVersion="V1_0">
         <Metadata>
             <Atom/>
@@ -2963,7 +2963,7 @@
         <ActiveMemoryExpansionEnabled kxe="false" kb="CUD">false</ActiveMemoryExpansionEnabled>
         <ActiveMemorySharingEnabled kxe="false" kb="CUD">false</ActiveMemorySharingEnabled>
         <DesiredHugePageCount kxe="false" kb="CUD">0</DesiredHugePageCount>
-        <DesiredMemory kxe="false" kb="CUD">12288</DesiredMemory>
+        <DesiredMemory kxe="false" kb="CUD">6144</DesiredMemory>
         <ExpansionFactor kb="CUD" kxe="false">0.0</ExpansionFactor>
         <HardwarePageTableRatio kb="CUD" kxe="false">6</HardwarePageTableRatio>
         <MaximumHugePageCount kxe="false" kb="CUD">0</MaximumHugePageCount>
@@ -2975,7 +2975,7 @@
         <CurrentHugePageCount kb="ROR" kxe="false">0</CurrentHugePageCount>
         <CurrentMaximumHugePageCount kb="ROR" kxe="false">0</CurrentMaximumHugePageCount>
         <CurrentMaximumMemory kb="ROR" kxe="false">24576</CurrentMaximumMemory>
-        <CurrentMemory kxe="false" kb="ROR">12288</CurrentMemory>
+        <CurrentMemory kxe="false" kb="ROR">6144</CurrentMemory>
         <CurrentMinimumHugePageCount kxe="false" kb="ROR">0</CurrentMinimumHugePageCount>
         <CurrentMinimumMemory kb="ROR" kxe="false">2048</CurrentMinimumMemory>
         <MemoryExpansionHardwareAccessEnabled kxe="false" kb="ROR">true</MemoryExpansionHardwareAccessEnabled>
@@ -2983,7 +2983,7 @@
         <MemoryExpansionEnabled kb="ROR" kxe="false">false</MemoryExpansionEnabled>
         <RedundantErrorPathReportingEnabled kb="ROR" kxe="false">false</RedundantErrorPathReportingEnabled>
         <RuntimeHugePageCount kxe="false" kb="ROR">0</RuntimeHugePageCount>
-        <RuntimeMemory kxe="false" kb="ROR">12288</RuntimeMemory>
+        <RuntimeMemory kxe="false" kb="ROR">6144</RuntimeMemory>
         <RuntimeMinimumMemory kxe="false" kb="ROR">2048</RuntimeMinimumMemory>
         <SharedMemoryEnabled kxe="false" kb="CUD">false</SharedMemoryEnabled>
         <PhysicalPageTableRatio ksv="V1_6_0" kb="CUD" kxe="false">6</PhysicalPageTableRatio>
@@ -3029,6 +3029,7 @@
     </PartitionProcessorConfiguration>
     <PartitionProfiles kb="CUD" kxe="false">
         <link href="https://cahmc2:12443/rest/api/uom/LogicalPartition/254CBE23-8BA4-4CEF-ADD5-843E0F7DF859/LogicalPartitionProfile/08573f44-d5d6-3db7-9336-38fa0e5e746e" rel="related"/>
+        <link href="https://cahmc2:12443/rest/api/uom/LogicalPartition/254CBE23-8BA4-4CEF-ADD5-843E0F7DF859/LogicalPartitionProfile/4a1ba4f2-07e2-3c85-bb01-4a066ea41444" rel="related"/>
     </PartitionProfiles>
     <PartitionState kb="ROO" kxe="false">running</PartitionState>
     <PartitionType kb="COD" kxe="false">AIX/Linux</PartitionType>
@@ -3086,9 +3087,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000967/disk@50000973501b985d:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323536</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323536</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000967/disk@50000973501b98dd,1000000000000:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323537</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030323537</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -3096,18 +3097,18 @@
     <entry>
         <id>30D12D24-EA6D-4BEF-ADB1-47E848D3AEBB</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.201-05:00</published>
+        <published>2021-01-12T10:39:08.630-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/30D12D24-EA6D-4BEF-ADB1-47E848D3AEBB"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-1668255125</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">2050854259</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>30D12D24-EA6D-4BEF-ADB1-47E848D3AEBB</AtomID>
-            <AtomCreated>1607387660027</AtomCreated>
+            <AtomCreated>1610465948506</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -3280,9 +3281,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000d49/disk@50000973501b995f,1000000000000:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313938</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313938</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000d49/disk@50000973501b981f:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313937</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313937</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -3290,7 +3291,7 @@
     <entry>
         <id>0C03676B-FBAC-43BA-946A-2FDB3DA8916F</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.203-05:00</published>
+        <published>2021-01-12T10:39:08.632-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/0C03676B-FBAC-43BA-946A-2FDB3DA8916F"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -3301,7 +3302,7 @@
     <Metadata>
         <Atom>
             <AtomID>0C03676B-FBAC-43BA-946A-2FDB3DA8916F</AtomID>
-            <AtomCreated>1607387660041</AtomCreated>
+            <AtomCreated>1610465948516</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -3483,7 +3484,7 @@
     <entry>
         <id>074991E4-CC5A-4D8C-A3B0-FFD99756138E</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.206-05:00</published>
+        <published>2021-01-12T10:39:08.634-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/074991E4-CC5A-4D8C-A3B0-FFD99756138E"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -3494,7 +3495,7 @@
     <Metadata>
         <Atom>
             <AtomID>074991E4-CC5A-4D8C-A3B0-FFD99756138E</AtomID>
-            <AtomCreated>1607387660053</AtomCreated>
+            <AtomCreated>1610465948526</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -3676,18 +3677,18 @@
     <entry>
         <id>0DD2A12A-8504-4352-AC2F-7CEC73A67005</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.209-05:00</published>
+        <published>2021-01-12T10:39:08.636-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/0DD2A12A-8504-4352-AC2F-7CEC73A67005"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">1772200539</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-1796406276</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>0DD2A12A-8504-4352-AC2F-7CEC73A67005</AtomID>
-            <AtomCreated>1607387660065</AtomCreated>
+            <AtomCreated>1610465948536</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -3857,9 +3858,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300005ad/disk@50000973501b995a,1000000000000:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313239</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313239</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300005ad/disk@50000973501b995a:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313241</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313241</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -3867,18 +3868,18 @@
     <entry>
         <id>19D94DA2-91F6-4846-8D6B-0FF5D1924DB6</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.212-05:00</published>
+        <published>2021-01-12T10:39:08.638-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/19D94DA2-91F6-4846-8D6B-0FF5D1924DB6"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-947752981</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">302872811</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>19D94DA2-91F6-4846-8D6B-0FF5D1924DB6</AtomID>
-            <AtomCreated>1607387660078</AtomCreated>
+            <AtomCreated>1610465948547</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -4048,9 +4049,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000480/disk@50000973501b9919:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313136</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313136</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300005ac/disk@50000973501b98d8:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313135</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313135</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -4058,18 +4059,18 @@
     <entry>
         <id>08CA1B80-9E32-489E-B7C8-94ACB4F9A2ED</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.214-05:00</published>
+        <published>2021-01-12T10:39:08.641-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/08CA1B80-9E32-489E-B7C8-94ACB4F9A2ED"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">238886917</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-529290901</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>08CA1B80-9E32-489E-B7C8-94ACB4F9A2ED</AtomID>
-            <AtomCreated>1607387660099</AtomCreated>
+            <AtomCreated>1610465948558</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -4086,7 +4087,7 @@
     <IsVirtualTrustedPlatformModuleEnabled kb="UOD" kxe="false">false</IsVirtualTrustedPlatformModuleEnabled>
     <KeylockPosition kb="CUD" kxe="false">normal</KeylockPosition>
     <LogicalSerialNumber kxe="false" kb="ROR">78AE73X96</LogicalSerialNumber>
-    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
     <PartitionCapabilities kxe="false" kb="ROR" schemaVersion="V1_0">
         <Metadata>
             <Atom/>
@@ -4240,9 +4241,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300005aa/disk@50000973501b991e,1000000000000:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313236</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313236</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300005aa/disk@50000973501b985e:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313235</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030313235</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -4250,7 +4251,7 @@
     <entry>
         <id>321328DA-4FE4-4D72-890D-910D72931235</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.217-05:00</published>
+        <published>2021-01-12T10:39:08.643-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/321328DA-4FE4-4D72-890D-910D72931235"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -4261,7 +4262,7 @@
     <Metadata>
         <Atom>
             <AtomID>321328DA-4FE4-4D72-890D-910D72931235</AtomID>
-            <AtomCreated>1607387660111</AtomCreated>
+            <AtomCreated>1610465948568</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -4443,25 +4444,25 @@
     <entry>
         <id>2F3CDA78-335A-44D7-8E20-6F3D3C950344</id>
         <title>LogicalPartition</title>
-        <published>2020-12-07T19:34:20.220-05:00</published>
+        <published>2021-01-12T10:39:08.645-05:00</published>
         <link rel="SELF" href="https://cahmc2:12443/rest/api/uom/ManagedSystem/741fe8ce-ea5b-3449-a1fa-1169db6608c1/LogicalPartition/2F3CDA78-335A-44D7-8E20-6F3D3C950344"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-989685824</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-274010674</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>2F3CDA78-335A-44D7-8E20-6F3D3C950344</AtomID>
-            <AtomCreated>1607387660123</AtomCreated>
+            <AtomCreated>1610465948578</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
     <AssociatedPartitionProfile kxe="false" kb="CUD" href="https://cahmc2:12443/rest/api/uom/LogicalPartition/2F3CDA78-335A-44D7-8E20-6F3D3C950344/LogicalPartitionProfile/7fdb7369-efb2-3e4f-9efc-3218040ac025" rel="related"/>
     <AvailabilityPriority kb="UOD" kxe="false">127</AvailabilityPriority>
     <CurrentProcessorCompatibilityMode kb="ROO" kxe="false">POWER8</CurrentProcessorCompatibilityMode>
-    <CurrentProfileSync kxe="false" kb="CUD">On</CurrentProfileSync>
+    <CurrentProfileSync kxe="false" kb="CUD">Suspended</CurrentProfileSync>
     <IsBootable ksv="V1_3_0" kb="ROO" kxe="false">true</IsBootable>
     <IsConnectionMonitoringEnabled kxe="false" kb="UOD">true</IsConnectionMonitoringEnabled>
     <IsOperationInProgress kb="ROR" kxe="false">false</IsOperationInProgress>
@@ -4471,7 +4472,7 @@
     <IsVirtualTrustedPlatformModuleEnabled kb="UOD" kxe="false">false</IsVirtualTrustedPlatformModuleEnabled>
     <KeylockPosition kb="CUD" kxe="false">normal</KeylockPosition>
     <LogicalSerialNumber kxe="false" kb="ROR">78AE73X3</LogicalSerialNumber>
-    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
     <PartitionCapabilities kxe="false" kb="ROR" schemaVersion="V1_0">
         <Metadata>
             <Atom/>
@@ -4502,7 +4503,7 @@
         <ActiveMemoryExpansionEnabled kxe="false" kb="CUD">false</ActiveMemoryExpansionEnabled>
         <ActiveMemorySharingEnabled kxe="false" kb="CUD">false</ActiveMemorySharingEnabled>
         <DesiredHugePageCount kxe="false" kb="CUD">0</DesiredHugePageCount>
-        <DesiredMemory kxe="false" kb="CUD">18432</DesiredMemory>
+        <DesiredMemory kxe="false" kb="CUD">6144</DesiredMemory>
         <ExpansionFactor kb="CUD" kxe="false">0.0</ExpansionFactor>
         <HardwarePageTableRatio kb="CUD" kxe="false">7</HardwarePageTableRatio>
         <MaximumHugePageCount kxe="false" kb="CUD">0</MaximumHugePageCount>
@@ -4514,7 +4515,7 @@
         <CurrentHugePageCount kb="ROR" kxe="false">0</CurrentHugePageCount>
         <CurrentMaximumHugePageCount kb="ROR" kxe="false">0</CurrentMaximumHugePageCount>
         <CurrentMaximumMemory kb="ROR" kxe="false">36864</CurrentMaximumMemory>
-        <CurrentMemory kxe="false" kb="ROR">18432</CurrentMemory>
+        <CurrentMemory kxe="false" kb="ROR">6144</CurrentMemory>
         <CurrentMinimumHugePageCount kxe="false" kb="ROR">0</CurrentMinimumHugePageCount>
         <CurrentMinimumMemory kb="ROR" kxe="false">2048</CurrentMinimumMemory>
         <MemoryExpansionHardwareAccessEnabled kxe="false" kb="ROR">true</MemoryExpansionHardwareAccessEnabled>
@@ -4522,7 +4523,7 @@
         <MemoryExpansionEnabled kb="ROR" kxe="false">false</MemoryExpansionEnabled>
         <RedundantErrorPathReportingEnabled kb="ROR" kxe="false">false</RedundantErrorPathReportingEnabled>
         <RuntimeHugePageCount kxe="false" kb="ROR">0</RuntimeHugePageCount>
-        <RuntimeMemory kxe="false" kb="ROR">18432</RuntimeMemory>
+        <RuntimeMemory kxe="false" kb="ROR">6144</RuntimeMemory>
         <RuntimeMinimumMemory kxe="false" kb="ROR">2048</RuntimeMinimumMemory>
         <SharedMemoryEnabled kxe="false" kb="CUD">false</SharedMemoryEnabled>
         <PhysicalPageTableRatio ksv="V1_6_0" kb="CUD" kxe="false">6</PhysicalPageTableRatio>
@@ -4568,6 +4569,7 @@
     </PartitionProcessorConfiguration>
     <PartitionProfiles kb="CUD" kxe="false">
         <link href="https://cahmc2:12443/rest/api/uom/LogicalPartition/2F3CDA78-335A-44D7-8E20-6F3D3C950344/LogicalPartitionProfile/7fdb7369-efb2-3e4f-9efc-3218040ac025" rel="related"/>
+        <link href="https://cahmc2:12443/rest/api/uom/LogicalPartition/2F3CDA78-335A-44D7-8E20-6F3D3C950344/LogicalPartitionProfile/d0dab2a1-a5b4-38d3-8555-0411b7bfa880" rel="related"/>
     </PartitionProfiles>
     <PartitionState kb="ROO" kxe="false">running</PartitionState>
     <PartitionType kb="COD" kxe="false">AIX/Linux</PartitionType>
@@ -4625,9 +4627,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300001c3/disk@50000973501b985c:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030333241</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030333241</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300001c3/disk@50000973501b985c,1000000000000:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030333242</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701766533030333242</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
