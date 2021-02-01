@@ -1,0 +1,35 @@
+{
+  "ATTRIBUTE": {
+    "get_value": {
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::AssociatedSystemIOConfiguration": {
+        "SRIOVAdapters": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::AssociatedSystemIOConfiguration::SRIOVAdapters::IOAdapterChoice::SRIOVAdapter": {
+        "AdapterState": 1,
+        "Description": 1,
+        "PhysicalLocation": 1,
+        "ConvergedEthernetPhysicalPorts": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::AssociatedSystemIOConfiguration::SRIOVAdapters::IOAdapterChoice": {
+        "SRIOVAdapter": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::AssociatedSystemIOConfiguration::SRIOVAdapters::IOAdapterChoice::SRIOVAdapter::ConvergedEthernetPhysicalPorts": {
+        "SRIOVConvergedNetworkAdapterPhysicalPort": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::AssociatedSystemIOConfiguration::SRIOVAdapters": {
+        "IOAdapterChoice": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem": {
+        "AssociatedSystemIOConfiguration": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::AssociatedSystemIOConfiguration::SRIOVAdapters::IOAdapterChoice::SRIOVAdapter::ConvergedEthernetPhysicalPorts::SRIOVConvergedNetworkAdapterPhysicalPort": {
+        "LocationCode": 1,
+        "AllocatedCapacity": 1,
+        "SubLabel": 1,
+        "LinkStatus": 1,
+        "ConfiguredEthernetLogicalPorts": 1,
+        "Label": 1
+      }
+    }
+  }
+}
