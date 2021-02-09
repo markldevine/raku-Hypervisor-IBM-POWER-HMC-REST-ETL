@@ -142,7 +142,11 @@ method etl-node-name-check (:$xml is copy) {
         else {
             $element-name = $name;
         }
+note self.^name ~ '::' ~ &?ROUTINE.name ~ ': ' ~ $element-name;
         next if self.can($element-name) || $element-name (elem) self.xml-name-exceptions;
+if $element-name eq 'ActivatedServicePackNameAndLevel' {
+    note 'self.can(' ~ $element-name ~ ') = ' ~ self.can('ActivatedServicePackNameAndLevel');
+}
         self.config.note.post: self.^name ~ '::' ~ &?ROUTINE.name ~ ': ' ~ $element-name ~ ' not implemented';
     }
 }
