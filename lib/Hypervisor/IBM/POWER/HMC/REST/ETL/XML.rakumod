@@ -130,9 +130,14 @@ multi method etl-href (LibXML::Element :$xml is required) {
 
 method xml-name-exceptions () { ... };
 
-method etl-node-name-check () {
-    return unless self.xml.DEFINITE;
-    for self.xml.elements -> $element {
+method etl-node-name-check (:$xml is copy) {
+    $xml =  $!xml without $xml;
+    return unless $xml.DEFINITE;
+    for $xml.elements <-> $element {
+        if $element.contains(':') {
+            my ($part1, $part2) = $element.split: ':';
+            $element = $part1 if $part1 eq $part2;
+        }
         next if self.can($element.name) || $element.name (elem) self.xml-name-exceptions;
         self.config.note.post: self.^name ~ '::' ~ &?ROUTINE.name ~ ': ' ~ $element.name ~ ' not implemented';
     }
