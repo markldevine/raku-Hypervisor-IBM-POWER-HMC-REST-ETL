@@ -133,7 +133,7 @@ method xml-name-exceptions () { ... };
 method etl-node-name-check (:$xml is copy) {
     $xml =  $!xml without $xml;
     return unless $xml.DEFINITE;
-    for $xml.elements.map({ $_.name}) -> $element-name {
+    for $xml.elements.map({ $_.name}) <-> $element-name {
         if $element-name.contains(':') {
             my ($part1, $part2) = $element-name.split: ':';
             $element-name = $part1 if $part1 eq $part2;
