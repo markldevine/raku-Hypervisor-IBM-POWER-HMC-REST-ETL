@@ -133,10 +133,14 @@ method xml-name-exceptions () { ... };
 method etl-node-name-check (:$xml is copy) {
     $xml =  $!xml without $xml;
     return unless $xml.DEFINITE;
-    for $xml.elements.map({ $_.name}) <-> $element-name {
-        if $element-name.contains(':') {
-            my ($part1, $part2) = $element-name.split: ':';
-            $element-name = $part1 if $part1 eq $part2;
+    my $element-name;
+    for $xml.elements.map({ $_.name}) -> $name {
+        if $name.contains(':') {
+            my ($part1, $part2) = $name.split: ':';
+            $element-name = $part2 if $part1 eq $part2;
+        }
+        else {
+            $element-name = $name;
         }
         next if self.can($element-name) || $element-name (elem) self.xml-name-exceptions;
         self.config.note.post: self.^name ~ '::' ~ &?ROUTINE.name ~ ': ' ~ $element-name ~ ' not implemented';
