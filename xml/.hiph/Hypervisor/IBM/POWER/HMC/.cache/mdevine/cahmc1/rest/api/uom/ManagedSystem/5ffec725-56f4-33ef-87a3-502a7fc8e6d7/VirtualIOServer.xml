@@ -1,14 +1,14 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
     <id>3241490b-8365-3c16-9ee3-dd2cd615b500</id>
-    <updated>2021-01-12T10:33:33.412-05:00</updated>
+    <updated>2021-02-10T15:32:03.346-05:00</updated>
     <link rel="SELF" href="https://cahmc1:12443/rest/api/uom/ManagedSystem/5ffec725-56f4-33ef-87a3-502a7fc8e6d7/VirtualIOServer"/>
     <link rel="MANAGEMENT_CONSOLE" href="https://cahmc1:12443/rest/api/uom/ManagementConsole/e8d96aea-da05-3319-9759-300510d4666f"/>
     <generator>IBM Power Systems Management Console</generator>
     <entry>
         <id>3D8C276F-B782-4180-999E-A0F9A3C2031A</id>
         <title>VirtualIOServer</title>
-        <published>2021-01-12T10:33:45.802-05:00</published>
+        <published>2021-02-10T15:32:11.188-05:00</published>
         <link rel="SELF" href="https://cahmc1:12443/rest/api/uom/ManagedSystem/5ffec725-56f4-33ef-87a3-502a7fc8e6d7/VirtualIOServer/3D8C276F-B782-4180-999E-A0F9A3C2031A"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -19,7 +19,7 @@
     <Metadata>
         <Atom>
             <AtomID>3D8C276F-B782-4180-999E-A0F9A3C2031A</AtomID>
-            <AtomCreated>1610465624374</AtomCreated>
+            <AtomCreated>1612989129870</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -409,23 +409,6 @@
     <Metadata>
         <Atom/>
     </Metadata>
-    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV526-P2-C5-T1</LocationCode>
-    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
-        <Metadata>
-            <Atom/>
-        </Metadata>
-    </PhysicalVolumes>
-    <PortName kb="CUR" kxe="false">fcs4</PortName>
-    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV526-P2-C5-T1</UniqueDeviceID>
-    <WWPN kb="CUR" kxe="false">100000109b5ad467</WWPN>
-    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad467</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">57</AvailablePorts>
-    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
-</PhysicalFibreChannelPort>
-<PhysicalFibreChannelPort schemaVersion="V1_0">
-    <Metadata>
-        <Atom/>
-    </Metadata>
     <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV526-P2-C5-T2</LocationCode>
     <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
         <Metadata>
@@ -437,6 +420,23 @@
     <WWPN kb="CUR" kxe="false">100000109b5ad468</WWPN>
     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad468</WWNN>
     <AvailablePorts kxe="true" kb="ROR">58</AvailablePorts>
+    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+</PhysicalFibreChannelPort>
+<PhysicalFibreChannelPort schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV526-P2-C5-T1</LocationCode>
+    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </PhysicalVolumes>
+    <PortName kb="CUR" kxe="false">fcs4</PortName>
+    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV526-P2-C5-T1</UniqueDeviceID>
+    <WWPN kb="CUR" kxe="false">100000109b5ad467</WWPN>
+    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad467</WWNN>
+    <AvailablePorts kxe="true" kb="ROR">57</AvailablePorts>
     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
 </PhysicalFibreChannelPort>
                             </PhysicalFibreChannelPorts>
@@ -504,23 +504,6 @@
     <Metadata>
         <Atom/>
     </Metadata>
-    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV526-P2-C6-T1</LocationCode>
-    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
-        <Metadata>
-            <Atom/>
-        </Metadata>
-    </PhysicalVolumes>
-    <PortName kb="CUR" kxe="false">fcs6</PortName>
-    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV526-P2-C6-T1</UniqueDeviceID>
-    <WWPN kb="CUR" kxe="false">100000109b5ae30e</WWPN>
-    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae30e</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
-    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
-</PhysicalFibreChannelPort>
-<PhysicalFibreChannelPort schemaVersion="V1_0">
-    <Metadata>
-        <Atom/>
-    </Metadata>
     <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV526-P2-C6-T2</LocationCode>
     <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
         <Metadata>
@@ -532,6 +515,23 @@
     <WWPN kb="CUR" kxe="false">100000109b5ae30f</WWPN>
     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae30f</WWNN>
     <AvailablePorts kxe="true" kb="ROR">57</AvailablePorts>
+    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+</PhysicalFibreChannelPort>
+<PhysicalFibreChannelPort schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV526-P2-C6-T1</LocationCode>
+    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </PhysicalVolumes>
+    <PortName kb="CUR" kxe="false">fcs6</PortName>
+    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV526-P2-C6-T1</UniqueDeviceID>
+    <WWPN kb="CUR" kxe="false">100000109b5ae30e</WWPN>
+    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ae30e</WWNN>
+    <AvailablePorts kxe="true" kb="ROR">59</AvailablePorts>
     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
 </PhysicalFibreChannelPort>
                             </PhysicalFibreChannelPorts>
@@ -694,23 +694,6 @@
     <Metadata>
         <Atom/>
     </Metadata>
-    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV597-P2-C6-T1</LocationCode>
-    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
-        <Metadata>
-            <Atom/>
-        </Metadata>
-    </PhysicalVolumes>
-    <PortName kb="CUR" kxe="false">fcs2</PortName>
-    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV597-P2-C6-T1</UniqueDeviceID>
-    <WWPN kb="CUR" kxe="false">100000109b5ad317</WWPN>
-    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad317</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">57</AvailablePorts>
-    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
-</PhysicalFibreChannelPort>
-<PhysicalFibreChannelPort schemaVersion="V1_0">
-    <Metadata>
-        <Atom/>
-    </Metadata>
     <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV597-P2-C6-T2</LocationCode>
     <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
         <Metadata>
@@ -721,6 +704,23 @@
     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV597-P2-C6-T2</UniqueDeviceID>
     <WWPN kb="CUR" kxe="false">100000109b5ad318</WWPN>
     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad318</WWNN>
+    <AvailablePorts kxe="true" kb="ROR">57</AvailablePorts>
+    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+</PhysicalFibreChannelPort>
+<PhysicalFibreChannelPort schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV597-P2-C6-T1</LocationCode>
+    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </PhysicalVolumes>
+    <PortName kb="CUR" kxe="false">fcs2</PortName>
+    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV597-P2-C6-T1</UniqueDeviceID>
+    <WWPN kb="CUR" kxe="false">100000109b5ad317</WWPN>
+    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad317</WWNN>
     <AvailablePorts kxe="true" kb="ROR">57</AvailablePorts>
     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
 </PhysicalFibreChannelPort>
@@ -901,6 +901,25 @@
                 <Atom/>
             </Metadata>
             <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
+            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1EGA-P1-C12-LC074DB2800-L0</LocationCode>
+            <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
+            <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
+            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NERCMjgwMDAwMDAwMEMw</UniqueDeviceID>
+            <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
+            <VolumeCapacity kxe="false" kb="CUR">739968</VolumeCapacity>
+            <VolumeName kb="CUR" kxe="false">hdisk3</VolumeName>
+            <VolumeState kb="ROR" kxe="false">active</VolumeState>
+            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74DB2800000000C010IPR-0   74DB280003IBMsas</VolumeUniqueID>
+            <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
+            <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
+            <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
+            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0REIyODAwMDAwMDAwQzA=</DescriptorPage83>
+        </PhysicalVolume>
+        <PhysicalVolume schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
             <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1EGA-P1-C12-L12074DB2800-L0</LocationCode>
             <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
             <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
@@ -914,25 +933,6 @@
             <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
             <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
             <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0REIyODAwMDAwMDAxMjA=</DescriptorPage83>
-        </PhysicalVolume>
-        <PhysicalVolume schemaVersion="V1_0">
-            <Metadata>
-                <Atom/>
-            </Metadata>
-            <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
-            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1EGA-P1-C12-L10074DB2800-L0</LocationCode>
-            <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
-            <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
-            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NERCMjgwMDAwMDAwMTAw</UniqueDeviceID>
-            <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
-            <VolumeCapacity kxe="false" kb="CUR">739968</VolumeCapacity>
-            <VolumeName kb="CUR" kxe="false">hdisk1</VolumeName>
-            <VolumeState kb="ROR" kxe="false">active</VolumeState>
-            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74DB28000000010010IPR-0   74DB280003IBMsas</VolumeUniqueID>
-            <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
-            <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
-            <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
-            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0REIyODAwMDAwMDAxMDA=</DescriptorPage83>
         </PhysicalVolume>
         <PhysicalVolume schemaVersion="V1_0">
             <Metadata>
@@ -958,19 +958,19 @@
                 <Atom/>
             </Metadata>
             <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
-            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1EGA-P1-C12-LC074DB2800-L0</LocationCode>
+            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1EGA-P1-C12-L10074DB2800-L0</LocationCode>
             <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
             <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
-            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NERCMjgwMDAwMDAwMEMw</UniqueDeviceID>
+            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NERCMjgwMDAwMDAwMTAw</UniqueDeviceID>
             <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
             <VolumeCapacity kxe="false" kb="CUR">739968</VolumeCapacity>
-            <VolumeName kb="CUR" kxe="false">hdisk3</VolumeName>
+            <VolumeName kb="CUR" kxe="false">hdisk1</VolumeName>
             <VolumeState kb="ROR" kxe="false">active</VolumeState>
-            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74DB2800000000C010IPR-0   74DB280003IBMsas</VolumeUniqueID>
+            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74DB28000000010010IPR-0   74DB280003IBMsas</VolumeUniqueID>
             <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
             <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
             <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
-            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0REIyODAwMDAwMDAwQzA=</DescriptorPage83>
+            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0REIyODAwMDAwMDAxMDA=</DescriptorPage83>
         </PhysicalVolume>
     </PhysicalVolumes>
     <SharedEthernetAdapters group="ViosNetwork" kxe="false" kb="CUD" schemaVersion="V1_0">
@@ -6896,7 +6896,7 @@
     <entry>
         <id>0921A90A-C043-4A32-BDA4-5605B6C8CA58</id>
         <title>VirtualIOServer</title>
-        <published>2021-01-12T10:33:45.844-05:00</published>
+        <published>2021-02-10T15:32:11.228-05:00</published>
         <link rel="SELF" href="https://cahmc1:12443/rest/api/uom/ManagedSystem/5ffec725-56f4-33ef-87a3-502a7fc8e6d7/VirtualIOServer/0921A90A-C043-4A32-BDA4-5605B6C8CA58"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -6907,7 +6907,7 @@
     <Metadata>
         <Atom>
             <AtomID>0921A90A-C043-4A32-BDA4-5605B6C8CA58</AtomID>
-            <AtomCreated>1610465625139</AtomCreated>
+            <AtomCreated>1612989130493</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>

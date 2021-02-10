@@ -1,0 +1,129 @@
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
+    <id>13cb964b-b9c8-4be1-b060-fe96970a2298</id>
+    <title type="text">Performance and Capacity Monitoring Preferences</title>
+    <subtitle type="text"/>
+    <link rel="self" href="https://jahmc1:12443/rest/api/pcm/preferences"/>
+    <generator uri="IBM Power Systems Management Console" version="1"/>
+    <entry>
+        <id>545248b9-6b50-4a32-8569-c0e306654f5b</id>
+        <updated>2021-02-10T15:33:35.755-05:00</updated>
+        <title type="text">Performance and Capacity Monitoring Preferences</title>
+        <published>2021-02-10T15:33:35.755-05:00</published>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <content type="application/xml">
+            <ManagementConsolePcmPreference:ManagementConsolePcmPreference xmlns:ManagementConsolePcmPreference="http://www.ibm.com/xmlns/systems/power/firmware/pcm/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/pcm/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
+    <Metadata>
+        <Atom>
+            <AtomID>7f1fc3bc-1af2-37c7-a23d-bfd56d2dbc1b</AtomID>
+            <AtomCreated>1612989215750</AtomCreated>
+        </Atom>
+    </Metadata>
+    <MaximumManagedSystemsForLongTermMonitor kb="ROR" kxe="false">45</MaximumManagedSystemsForLongTermMonitor>
+    <MaximumManagedSystemsForComputeLTM kb="ROR" kxe="false">60</MaximumManagedSystemsForComputeLTM>
+    <MaximumManagedSystemsForAggregation kb="ROR" kxe="false">40</MaximumManagedSystemsForAggregation>
+    <MaximumManagedSystemsForShortTermMonitor kb="ROR" kxe="false">5</MaximumManagedSystemsForShortTermMonitor>
+    <MaximumManagedSystemsForEnergyMonitor kxe="false" kb="ROR">45</MaximumManagedSystemsForEnergyMonitor>
+    <AggregatedMetricsStorageDuration kb="UOD" kxe="false">15552000</AggregatedMetricsStorageDuration>
+    <ManagedSystemPcmPreference kb="UOD" kxe="false" schemaVersion="V1_0">
+        <Metadata>
+            <Atom>
+                <AtomID>de0a524e-c256-3de9-9295-3c2b3a5962de</AtomID>
+                <AtomCreated>1612989215717</AtomCreated>
+            </Atom>
+        </Metadata>
+        <SystemName kxe="false" kb="ROR">Server-9040-MR9-SN78AE6FX</SystemName>
+        <MachineTypeModelSerialNumber kb="ROR" kxe="false" schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <MachineType kxe="false" kb="ROR">9040</MachineType>
+            <Model kxe="false" kb="ROR">MR9</Model>
+            <SerialNumber kb="ROR" kxe="false">78AE6FX</SerialNumber>
+        </MachineTypeModelSerialNumber>
+        <EnergyMonitoringCapable kxe="false" kb="ROO">true</EnergyMonitoringCapable>
+        <LongTermMonitorEnabled kxe="false" kb="UOD">true</LongTermMonitorEnabled>
+        <AggregationEnabled kb="UOD" kxe="false">true</AggregationEnabled>
+        <ShortTermMonitorEnabled kxe="false" kb="UOD">false</ShortTermMonitorEnabled>
+        <ComputeLTMEnabled ksv="V1_1_0" kb="UOD" kxe="false">false</ComputeLTMEnabled>
+        <EnergyMonitorEnabled kb="UOD" kxe="false">true</EnergyMonitorEnabled>
+        <AssociatedManagedSystem kb="ROO" kxe="false" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/de0a524e-c256-3de9-9295-3c2b3a5962de" rel="related"/>
+    </ManagedSystemPcmPreference>
+    <ManagedSystemPcmPreference kb="UOD" kxe="false" schemaVersion="V1_0">
+        <Metadata>
+            <Atom>
+                <AtomID>aa4af0a7-c546-3a7e-b984-f5dcc581769f</AtomID>
+                <AtomCreated>1612989215717</AtomCreated>
+            </Atom>
+        </Metadata>
+        <SystemName kxe="false" kb="ROR">Server-9040-MR9-SN78AE70X</SystemName>
+        <MachineTypeModelSerialNumber kb="ROR" kxe="false" schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <MachineType kxe="false" kb="ROR">9040</MachineType>
+            <Model kxe="false" kb="ROR">MR9</Model>
+            <SerialNumber kb="ROR" kxe="false">78AE70X</SerialNumber>
+        </MachineTypeModelSerialNumber>
+        <EnergyMonitoringCapable kxe="false" kb="ROO">true</EnergyMonitoringCapable>
+        <LongTermMonitorEnabled kxe="false" kb="UOD">true</LongTermMonitorEnabled>
+        <AggregationEnabled kb="UOD" kxe="false">true</AggregationEnabled>
+        <ShortTermMonitorEnabled kxe="false" kb="UOD">false</ShortTermMonitorEnabled>
+        <ComputeLTMEnabled ksv="V1_1_0" kb="UOD" kxe="false">false</ComputeLTMEnabled>
+        <EnergyMonitorEnabled kb="UOD" kxe="false">true</EnergyMonitorEnabled>
+        <AssociatedManagedSystem kb="ROO" kxe="false" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f" rel="related"/>
+    </ManagedSystemPcmPreference>
+    <ManagedSystemPcmPreference kb="UOD" kxe="false" schemaVersion="V1_0">
+        <Metadata>
+            <Atom>
+                <AtomID>43dd2568-d873-3d38-9202-662e7042c594</AtomID>
+                <AtomCreated>1612989215718</AtomCreated>
+            </Atom>
+        </Metadata>
+        <SystemName kxe="false" kb="ROR">Server-9040-MR9-SN78AE6DX</SystemName>
+        <MachineTypeModelSerialNumber kb="ROR" kxe="false" schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <MachineType kxe="false" kb="ROR">9040</MachineType>
+            <Model kxe="false" kb="ROR">MR9</Model>
+            <SerialNumber kb="ROR" kxe="false">78AE6DX</SerialNumber>
+        </MachineTypeModelSerialNumber>
+        <EnergyMonitoringCapable kxe="false" kb="ROO">true</EnergyMonitoringCapable>
+        <LongTermMonitorEnabled kxe="false" kb="UOD">true</LongTermMonitorEnabled>
+        <AggregationEnabled kb="UOD" kxe="false">true</AggregationEnabled>
+        <ShortTermMonitorEnabled kxe="false" kb="UOD">false</ShortTermMonitorEnabled>
+        <ComputeLTMEnabled ksv="V1_1_0" kb="UOD" kxe="false">false</ComputeLTMEnabled>
+        <EnergyMonitorEnabled kb="UOD" kxe="false">true</EnergyMonitorEnabled>
+        <AssociatedManagedSystem kb="ROO" kxe="false" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594" rel="related"/>
+    </ManagedSystemPcmPreference>
+    <ManagedSystemPcmPreference kb="UOD" kxe="false" schemaVersion="V1_0">
+        <Metadata>
+            <Atom>
+                <AtomID>8dac7f0d-0cbf-3173-a20d-0386e050f03f</AtomID>
+                <AtomCreated>1612989215718</AtomCreated>
+            </Atom>
+        </Metadata>
+        <SystemName kxe="false" kb="ROR">Server-9040-MR9-SN78AE6EX</SystemName>
+        <MachineTypeModelSerialNumber kb="ROR" kxe="false" schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <MachineType kxe="false" kb="ROR">9040</MachineType>
+            <Model kxe="false" kb="ROR">MR9</Model>
+            <SerialNumber kb="ROR" kxe="false">78AE6EX</SerialNumber>
+        </MachineTypeModelSerialNumber>
+        <EnergyMonitoringCapable kxe="false" kb="ROO">true</EnergyMonitoringCapable>
+        <LongTermMonitorEnabled kxe="false" kb="UOD">true</LongTermMonitorEnabled>
+        <AggregationEnabled kb="UOD" kxe="false">true</AggregationEnabled>
+        <ShortTermMonitorEnabled kxe="false" kb="UOD">false</ShortTermMonitorEnabled>
+        <ComputeLTMEnabled ksv="V1_1_0" kb="UOD" kxe="false">false</ComputeLTMEnabled>
+        <EnergyMonitorEnabled kb="UOD" kxe="false">true</EnergyMonitorEnabled>
+        <AssociatedManagedSystem kb="ROO" kxe="false" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/8dac7f0d-0cbf-3173-a20d-0386e050f03f" rel="related"/>
+    </ManagedSystemPcmPreference>
+</ManagementConsolePcmPreference:ManagementConsolePcmPreference>
+        </content>
+    </entry>
+</feed>

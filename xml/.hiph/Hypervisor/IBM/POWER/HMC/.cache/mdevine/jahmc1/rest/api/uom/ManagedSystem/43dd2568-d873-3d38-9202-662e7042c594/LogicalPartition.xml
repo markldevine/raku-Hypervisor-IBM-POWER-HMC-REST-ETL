@@ -1,14 +1,14 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
     <id>d0969eb8-6ab4-30a1-bd95-c6523c65b8c7</id>
-    <updated>2021-01-13T10:12:33.653-05:00</updated>
+    <updated>2021-02-10T15:33:17.498-05:00</updated>
     <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition"/>
     <link rel="MANAGEMENT_CONSOLE" href="https://jahmc1:12443/rest/api/uom/ManagementConsole/7f1fc3bc-1af2-37c7-a23d-bfd56d2dbc1b"/>
     <generator>IBM Power Systems Management Console</generator>
     <entry>
         <id>3F327582-6EE6-49CC-B736-673446A60A25</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.520-05:00</published>
+        <published>2021-02-10T15:33:18.342-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/3F327582-6EE6-49CC-B736-673446A60A25"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -19,7 +19,7 @@
     <Metadata>
         <Atom>
             <AtomID>3F327582-6EE6-49CC-B736-673446A60A25</AtomID>
-            <AtomCreated>1610467995546</AtomCreated>
+            <AtomCreated>1612741473026</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -201,7 +201,7 @@
     <entry>
         <id>7A8A5AB8-8C47-4B2F-803A-28DC43574436</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.523-05:00</published>
+        <published>2021-02-10T15:33:18.344-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/7A8A5AB8-8C47-4B2F-803A-28DC43574436"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -212,7 +212,7 @@
     <Metadata>
         <Atom>
             <AtomID>7A8A5AB8-8C47-4B2F-803A-28DC43574436</AtomID>
-            <AtomCreated>1610467995629</AtomCreated>
+            <AtomCreated>1612741473027</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -394,18 +394,18 @@
     <entry>
         <id>5AB84B2B-9C61-4108-A66E-DA47409D2D2B</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.526-05:00</published>
+        <published>2021-02-10T15:33:18.347-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/5AB84B2B-9C61-4108-A66E-DA47409D2D2B"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">991924218</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">1832557809</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>5AB84B2B-9C61-4108-A66E-DA47409D2D2B</AtomID>
-            <AtomCreated>1610467995640</AtomCreated>
+            <AtomCreated>1612741473028</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -577,7 +577,7 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@3000013e/disk@50000973501ba0dd,1000000000000:2 /vdevice/vfc-client@3000013f/disk@50000973501ba09c,1000000000000:2 /vdevice/vfc-client@300001a2/disk@50000973501ba09c,1000000000000:2 /vdevice/vfc-client@300001a3/disk@50000973501ba05d,1000000000000:2</BootDeviceList>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300001a3/disk@50000973501ba05d,1000000000000:2</BootDeviceList>
         <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030323137</ShadowBootDeviceList>
         <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030323137</LastBootedDeviceString>
     </BootListInformation>
@@ -587,7 +587,7 @@
     <entry>
         <id>678330BF-2EE8-4789-90CB-7EECB78449DA</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.529-05:00</published>
+        <published>2021-02-10T15:33:18.349-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/678330BF-2EE8-4789-90CB-7EECB78449DA"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -598,7 +598,7 @@
     <Metadata>
         <Atom>
             <AtomID>678330BF-2EE8-4789-90CB-7EECB78449DA</AtomID>
-            <AtomCreated>1610467995657</AtomCreated>
+            <AtomCreated>1612741473028</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -781,7 +781,7 @@
     <entry>
         <id>1A522F9F-0FB2-4A54-A39C-E8842D2DA923</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.532-05:00</published>
+        <published>2021-02-10T15:33:18.352-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/1A522F9F-0FB2-4A54-A39C-E8842D2DA923"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -792,7 +792,7 @@
     <Metadata>
         <Atom>
             <AtomID>1A522F9F-0FB2-4A54-A39C-E8842D2DA923</AtomID>
-            <AtomCreated>1610467995667</AtomCreated>
+            <AtomCreated>1612741473029</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -974,18 +974,18 @@
     <entry>
         <id>6D3DCD80-5598-4757-B463-B6A89D918E56</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.534-05:00</published>
+        <published>2021-02-10T15:33:18.355-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/6D3DCD80-5598-4757-B463-B6A89D918E56"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-730599178</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">648385376</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>6D3DCD80-5598-4757-B463-B6A89D918E56</AtomID>
-            <AtomCreated>1610467995677</AtomCreated>
+            <AtomCreated>1612741473030</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1155,9 +1155,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300000f8/disk@50000973501ba01b:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030343231</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030343231</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000093/disk@50000973501ba15b,1000000000000:2 /vdevice/vfc-client@30000094/disk@50000973501ba11a,1000000000000:2 /vdevice/vfc-client@300000f7/disk@50000973501ba11a,1000000000000:2 /vdevice/vfc-client@300000f8/disk@50000973501ba15b,1000000000000:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030343143</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030343143</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -1165,18 +1165,18 @@
     <entry>
         <id>08B3A499-806B-4DE9-AD2E-D914E3BB307B</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.537-05:00</published>
+        <published>2021-02-10T15:33:18.358-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/08B3A499-806B-4DE9-AD2E-D914E3BB307B"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-1986347529</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">545028236</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>08B3A499-806B-4DE9-AD2E-D914E3BB307B</AtomID>
-            <AtomCreated>1610467995690</AtomCreated>
+            <AtomCreated>1612741473031</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1347,9 +1347,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300000ee/disk@50000973501ba05c:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030343239</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030343239</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000089/disk@50000973501ba15d,1000000000000:2 /vdevice/vfc-client@3000008a/disk@50000973501ba11c,1000000000000:2 /vdevice/vfc-client@300000ed/disk@50000973501ba15d,1000000000000:2 /vdevice/vfc-client@300000ee/disk@50000973501ba05c,1000000000000:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030343238</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030343238</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -1357,18 +1357,18 @@
     <entry>
         <id>08E9C1C1-AE9F-420E-A82B-260AEBF9A64D</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.540-05:00</published>
+        <published>2021-02-10T15:33:18.360-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/08E9C1C1-AE9F-420E-A82B-260AEBF9A64D"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">2076184015</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-1149658381</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>08E9C1C1-AE9F-420E-A82B-260AEBF9A64D</AtomID>
-            <AtomCreated>1610467995708</AtomCreated>
+            <AtomCreated>1612741473031</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1385,7 +1385,7 @@
     <IsVirtualTrustedPlatformModuleEnabled kb="UOD" kxe="false">false</IsVirtualTrustedPlatformModuleEnabled>
     <KeylockPosition kb="CUD" kxe="false">normal</KeylockPosition>
     <LogicalSerialNumber kxe="false" kb="ROR">78AE6DX117</LogicalSerialNumber>
-    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
     <PartitionCapabilities kxe="false" kb="ROR" schemaVersion="V1_0">
         <Metadata>
             <Atom/>
@@ -1539,9 +1539,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300009af/disk@50000973501ba019:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030313338</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030313338</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000883/disk@50000973501ba118,1000000000000:2 /vdevice/vfc-client@300008e7/disk@50000973501ba118,1000000000000:2 /vdevice/vfc-client@3000094b/disk@50000973501ba159,1000000000000:2 /vdevice/vfc-client@300009af/disk@50000973501ba019,1000000000000:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030313433</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030313433</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
@@ -1549,7 +1549,7 @@
     <entry>
         <id>063FD8A3-52CF-4E2A-9A4D-8D7B6A2B72D4</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.543-05:00</published>
+        <published>2021-02-10T15:33:18.363-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/063FD8A3-52CF-4E2A-9A4D-8D7B6A2B72D4"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -1560,7 +1560,7 @@
     <Metadata>
         <Atom>
             <AtomID>063FD8A3-52CF-4E2A-9A4D-8D7B6A2B72D4</AtomID>
-            <AtomCreated>1610467995719</AtomCreated>
+            <AtomCreated>1612741473032</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1743,18 +1743,18 @@
     <entry>
         <id>79CD6127-0B82-4154-9BD1-F1935454A2BA</id>
         <title>LogicalPartition</title>
-        <published>2021-01-13T10:12:34.545-05:00</published>
+        <published>2021-02-10T15:33:18.365-05:00</published>
         <link rel="SELF" href="https://jahmc1:12443/rest/api/uom/ManagedSystem/43dd2568-d873-3d38-9202-662e7042c594/LogicalPartition/79CD6127-0B82-4154-9BD1-F1935454A2BA"/>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
-        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">541325325</etag:etag>
+        <etag:etag xmlns:etag="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/">-1448792558</etag:etag>
         <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
             <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
     <Metadata>
         <Atom>
             <AtomID>79CD6127-0B82-4154-9BD1-F1935454A2BA</AtomID>
-            <AtomCreated>1610467995729</AtomCreated>
+            <AtomCreated>1612741473033</AtomCreated>
         </Atom>
     </Metadata>
     <AllowPerformanceDataCollection kb="CUD" kxe="false">true</AllowPerformanceDataCollection>
@@ -1771,7 +1771,7 @@
     <IsVirtualTrustedPlatformModuleEnabled kb="UOD" kxe="false">false</IsVirtualTrustedPlatformModuleEnabled>
     <KeylockPosition kb="CUD" kxe="false">normal</KeylockPosition>
     <LogicalSerialNumber kxe="false" kb="ROR">78AE6DX116</LogicalSerialNumber>
-    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+    <OperatingSystemVersion kb="ROR" kxe="false">AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
     <PartitionCapabilities kxe="false" kb="ROR" schemaVersion="V1_0">
         <Metadata>
             <Atom/>
@@ -1925,9 +1925,9 @@
             <Atom/>
         </Metadata>
         <PendingBootString group="Advanced" ksv="V1_5_0" kxe="false" kb="UOO"/>
-        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@300009ae/disk@50000973501ba05f:2</BootDeviceList>
-        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030313337</ShadowBootDeviceList>
-        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030313337</LastBootedDeviceString>
+        <BootDeviceList group="Advanced" ksv="V1_5_0" kxe="false" kb="ROO">/vdevice/vfc-client@30000882/disk@50000973501ba09e,1000000000000:2 /vdevice/vfc-client@300008e6/disk@50000973501ba09e,1000000000000:2 /vdevice/vfc-client@3000094a/disk@50000973501ba0df,1000000000000:2 /vdevice/vfc-client@300009ae/disk@50000973501ba0df,1000000000000:2</BootDeviceList>
+        <ShadowBootDeviceList group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030313432</ShadowBootDeviceList>
+        <LastBootedDeviceString group="Advanced" ksv="V1_5_0" kb="ROO" kxe="false">EMC-SYMMETRIX-60000970000196701768533030313432</LastBootedDeviceString>
     </BootListInformation>
 </LogicalPartition:LogicalPartition>
         </content>
