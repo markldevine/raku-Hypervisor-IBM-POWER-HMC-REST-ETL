@@ -1,15 +1,15 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
-    <id>bccc30da-1c27-403f-931d-34156dd12b50</id>
+    <id>835ff73f-c404-402b-b20c-388a1bb6656b</id>
     <title type="text">Performance and Capacity Monitoring Preferences</title>
     <subtitle type="text"/>
     <link rel="self" href="https://cahmc1:12443/rest/api/pcm/preferences"/>
     <generator uri="IBM Power Systems Management Console" version="1"/>
     <entry>
-        <id>a69ab2d1-189e-432c-8bdf-1f43bc4994e0</id>
-        <updated>2021-02-11T18:31:09.476-05:00</updated>
+        <id>580e368c-2cd2-4ed5-9aa9-d719f8a04ed5</id>
+        <updated>2021-02-12T16:36:26.557-05:00</updated>
         <title type="text">Performance and Capacity Monitoring Preferences</title>
-        <published>2021-02-11T18:31:09.476-05:00</published>
+        <published>2021-02-12T16:36:26.557-05:00</published>
         <author>
             <name>IBM Power Systems Management Console</name>
         </author>
@@ -18,7 +18,7 @@
     <Metadata>
         <Atom>
             <AtomID>e8d96aea-da05-3319-9759-300510d4666f</AtomID>
-            <AtomCreated>1613086269459</AtomCreated>
+            <AtomCreated>1613165786549</AtomCreated>
         </Atom>
     </Metadata>
     <MaximumManagedSystemsForLongTermMonitor kb="ROR" kxe="false">45</MaximumManagedSystemsForLongTermMonitor>
@@ -31,7 +31,7 @@
         <Metadata>
             <Atom>
                 <AtomID>741fe8ce-ea5b-3449-a1fa-1169db6608c1</AtomID>
-                <AtomCreated>1613086269422</AtomCreated>
+                <AtomCreated>1613165786504</AtomCreated>
             </Atom>
         </Metadata>
         <SystemName kxe="false" kb="ROR">Server-9040-MR9-SN78AE73X</SystemName>
@@ -55,7 +55,7 @@
         <Metadata>
             <Atom>
                 <AtomID>727005ab-1106-314e-9ca0-6e68670eca53</AtomID>
-                <AtomCreated>1613086269422</AtomCreated>
+                <AtomCreated>1613165786504</AtomCreated>
             </Atom>
         </Metadata>
         <SystemName kxe="false" kb="ROR">Server-9040-MR9-SN78AE74X</SystemName>
@@ -79,7 +79,7 @@
         <Metadata>
             <Atom>
                 <AtomID>5ffec725-56f4-33ef-87a3-502a7fc8e6d7</AtomID>
-                <AtomCreated>1613086269423</AtomCreated>
+                <AtomCreated>1613165786505</AtomCreated>
             </Atom>
         </Metadata>
         <SystemName kxe="false" kb="ROR">Server-9040-MR9-SN78AE72X</SystemName>
@@ -92,18 +92,18 @@
             <SerialNumber kb="ROR" kxe="false">78AE72X</SerialNumber>
         </MachineTypeModelSerialNumber>
         <EnergyMonitoringCapable kxe="false" kb="ROO">true</EnergyMonitoringCapable>
-        <LongTermMonitorEnabled kxe="false" kb="UOD">false</LongTermMonitorEnabled>
-        <AggregationEnabled kb="UOD" kxe="false">false</AggregationEnabled>
+        <LongTermMonitorEnabled kxe="false" kb="UOD">true</LongTermMonitorEnabled>
+        <AggregationEnabled kb="UOD" kxe="false">true</AggregationEnabled>
         <ShortTermMonitorEnabled kxe="false" kb="UOD">false</ShortTermMonitorEnabled>
         <ComputeLTMEnabled ksv="V1_1_0" kb="UOD" kxe="false">false</ComputeLTMEnabled>
-        <EnergyMonitorEnabled kb="UOD" kxe="false">false</EnergyMonitorEnabled>
+        <EnergyMonitorEnabled kb="UOD" kxe="false">true</EnergyMonitorEnabled>
         <AssociatedManagedSystem kb="ROO" kxe="false" href="https://cahmc1:12443/rest/api/uom/ManagedSystem/5ffec725-56f4-33ef-87a3-502a7fc8e6d7" rel="related"/>
     </ManagedSystemPcmPreference>
     <ManagedSystemPcmPreference kb="UOD" kxe="false" schemaVersion="V1_0">
         <Metadata>
             <Atom>
                 <AtomID>44f85d37-2948-389f-978e-cf96a50ccf3a</AtomID>
-                <AtomCreated>1613086269423</AtomCreated>
+                <AtomCreated>1613165786505</AtomCreated>
             </Atom>
         </Metadata>
         <SystemName kxe="false" kb="ROR">Server-9040-MR9-SN78AE71X</SystemName>
