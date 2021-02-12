@@ -1,0 +1,33 @@
+{
+  "ATTRIBUTE": {
+    "get_value": {
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::PCM": {
+        "MaximumManagedSystemsForAggregation": 1,
+        "MaximumManagedSystemsForEnergyMonitor": 1,
+        "MaximumManagedSystemsForComputeLTM": 1,
+        "MaximumManagedSystemsForLongTermMonitor": 1,
+        "PCM-System": 1,
+        "MaximumManagedSystemsForShortTermMonitor": 1,
+        "AggregatedMetricsStorageDuration": 1,
+        "atom": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::PCM": {
+        "LongTermMonitorEnabled": 1,
+        "MachineTypeModelSerialNumber": 1,
+        "AssociatedManagedSystem": 1,
+        "EnergyMonitoringCapable": 1,
+        "ShortTermMonitorEnabled": 1,
+        "AggregationEnabled": 1,
+        "EnergyMonitorEnabled": 1,
+        "atom": 1,
+        "ComputeLTMEnabled": 1,
+        "SystemName": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::PCM::MachineTypeModelSerialNumber": {
+        "MachineType": 1,
+        "Model": 1,
+        "SerialNumber": 1
+      }
+    }
+  }
+}

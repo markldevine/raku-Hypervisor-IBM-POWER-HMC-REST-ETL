@@ -1,14 +1,14 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
     <id>3241490b-8365-3c16-9ee3-dd2cd615b500</id>
-    <updated>2021-02-10T15:32:03.346-05:00</updated>
+    <updated>2021-02-11T18:22:22.119-05:00</updated>
     <link rel="SELF" href="https://cahmc1:12443/rest/api/uom/ManagedSystem/5ffec725-56f4-33ef-87a3-502a7fc8e6d7/VirtualIOServer"/>
     <link rel="MANAGEMENT_CONSOLE" href="https://cahmc1:12443/rest/api/uom/ManagementConsole/e8d96aea-da05-3319-9759-300510d4666f"/>
     <generator>IBM Power Systems Management Console</generator>
     <entry>
         <id>3D8C276F-B782-4180-999E-A0F9A3C2031A</id>
         <title>VirtualIOServer</title>
-        <published>2021-02-10T15:32:11.188-05:00</published>
+        <published>2021-02-11T18:22:24.033-05:00</published>
         <link rel="SELF" href="https://cahmc1:12443/rest/api/uom/ManagedSystem/5ffec725-56f4-33ef-87a3-502a7fc8e6d7/VirtualIOServer/3D8C276F-B782-4180-999E-A0F9A3C2031A"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -6896,7 +6896,7 @@
     <entry>
         <id>0921A90A-C043-4A32-BDA4-5605B6C8CA58</id>
         <title>VirtualIOServer</title>
-        <published>2021-02-10T15:32:11.228-05:00</published>
+        <published>2021-02-11T18:22:24.092-05:00</published>
         <link rel="SELF" href="https://cahmc1:12443/rest/api/uom/ManagedSystem/5ffec725-56f4-33ef-87a3-502a7fc8e6d7/VirtualIOServer/0921A90A-C043-4A32-BDA4-5605B6C8CA58"/>
         <author>
             <name>IBM Power Systems Management Console</name>
@@ -7263,23 +7263,6 @@
     <Metadata>
         <Atom/>
     </Metadata>
-    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV526-P1-C3-T1</LocationCode>
-    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
-        <Metadata>
-            <Atom/>
-        </Metadata>
-    </PhysicalVolumes>
-    <PortName kb="CUR" kxe="false">fcs8</PortName>
-    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV526-P1-C3-T1</UniqueDeviceID>
-    <WWPN kb="CUR" kxe="false">100000109b5ad3fb</WWPN>
-    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad3fb</WWNN>
-    <AvailablePorts kxe="true" kb="ROR">57</AvailablePorts>
-    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
-</PhysicalFibreChannelPort>
-<PhysicalFibreChannelPort schemaVersion="V1_0">
-    <Metadata>
-        <Atom/>
-    </Metadata>
     <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV526-P1-C3-T2</LocationCode>
     <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
         <Metadata>
@@ -7290,6 +7273,23 @@
     <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV526-P1-C3-T2</UniqueDeviceID>
     <WWPN kb="CUR" kxe="false">100000109b5ad3fc</WWPN>
     <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad3fc</WWNN>
+    <AvailablePorts kxe="true" kb="ROR">57</AvailablePorts>
+    <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
+</PhysicalFibreChannelPort>
+<PhysicalFibreChannelPort schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <LocationCode kb="ROR" kxe="false">U78CD.001.FZHV526-P1-C3-T1</LocationCode>
+    <PhysicalVolumes group="ViosStorage" kb="CUD" kxe="true" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </PhysicalVolumes>
+    <PortName kb="CUR" kxe="false">fcs8</PortName>
+    <UniqueDeviceID kxe="false" kb="ROR">1aU78CD.001.FZHV526-P1-C3-T1</UniqueDeviceID>
+    <WWPN kb="CUR" kxe="false">100000109b5ad3fb</WWPN>
+    <WWNN ksv="V1_3_0" kb="ROO" kxe="false">200000109b5ad3fb</WWNN>
     <AvailablePorts kxe="true" kb="ROR">57</AvailablePorts>
     <TotalPorts kb="ROR" kxe="true">64</TotalPorts>
 </PhysicalFibreChannelPort>
@@ -7850,6 +7850,25 @@
                 <Atom/>
             </Metadata>
             <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
+            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1EGA-P1-C9-L4074DB1D00-L0</LocationCode>
+            <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
+            <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
+            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NERCMUQwMDAwMDAwMDQw</UniqueDeviceID>
+            <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
+            <VolumeCapacity kxe="false" kb="CUR">369984</VolumeCapacity>
+            <VolumeName kb="CUR" kxe="false">hdisk2</VolumeName>
+            <VolumeState kb="ROR" kxe="false">active</VolumeState>
+            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74DB1D000000004010IPR-0   74DB1D0003IBMsas</VolumeUniqueID>
+            <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
+            <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
+            <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
+            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0REIxRDAwMDAwMDAwNDA=</DescriptorPage83>
+        </PhysicalVolume>
+        <PhysicalVolume schemaVersion="V1_0">
+            <Metadata>
+                <Atom/>
+            </Metadata>
+            <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
             <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1EGA-P1-C9-L8074DB1D00-L0</LocationCode>
             <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
             <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
@@ -7882,25 +7901,6 @@
             <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
             <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
             <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0REIxRDAwMDAwMDAwNjA=</DescriptorPage83>
-        </PhysicalVolume>
-        <PhysicalVolume schemaVersion="V1_0">
-            <Metadata>
-                <Atom/>
-            </Metadata>
-            <Description kb="CUD" kxe="false">SAS 4K RAID 0 SSD Array</Description>
-            <LocationCode kxe="false" kb="ROR">U78D4.ND1.CSS1EGA-P1-C9-L4074DB1D00-L0</LocationCode>
-            <ReservePolicy kxe="false" kb="CUD">NoReserve</ReservePolicy>
-            <ReservePolicyAlgorithm kb="CUD" kxe="false">Failover</ReservePolicyAlgorithm>
-            <UniqueDeviceID kb="ROR" kxe="false">01MUlCTSAgICAgSVBSLTAgICA3NERCMUQwMDAwMDAwMDQw</UniqueDeviceID>
-            <AvailableForUsage kb="CUD" kxe="false">false</AvailableForUsage>
-            <VolumeCapacity kxe="false" kb="CUR">369984</VolumeCapacity>
-            <VolumeName kb="CUR" kxe="false">hdisk2</VolumeName>
-            <VolumeState kb="ROR" kxe="false">active</VolumeState>
-            <VolumeUniqueID kb="ROR" kxe="false">391BIBMIPR-0   74DB1D000000004010IPR-0   74DB1D0003IBMsas</VolumeUniqueID>
-            <IsFibreChannelBacked kxe="false" kb="ROR">false</IsFibreChannelBacked>
-            <IsISCSIBacked ksv="V1_8_0" kb="ROR" kxe="false">false</IsISCSIBacked>
-            <StorageLabel ksv="V1_3_0" kb="ROR" kxe="false">VU5LTk9XTg==</StorageLabel>
-            <DescriptorPage83 ksv="V1_5_0" kb="ROR" kxe="false">SUJNICAgICBJUFItMCAgIDc0REIxRDAwMDAwMDAwNDA=</DescriptorPage83>
         </PhysicalVolume>
         <PhysicalVolume schemaVersion="V1_0">
             <Metadata>

@@ -1,0 +1,9 @@
+{
+  "ATTRIBUTE": {
+    "get_value": {
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::PCM": {
+        "SystemName": 1
+      }
+    }
+  }
+}

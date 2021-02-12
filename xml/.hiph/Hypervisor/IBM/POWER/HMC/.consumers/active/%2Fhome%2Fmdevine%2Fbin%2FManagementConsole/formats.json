@@ -1,9 +1,9 @@
 {
   "verbose": true,
+  "DUMP-TTY-payload-markup": "",
+  "DUMP-TTY-header-markup": "",
   "silence": false,
   "tab-stop": 1,
   "headers": true,
-  "quiet": false,
-  "DUMP-TTY-header-markup": "",
-  "DUMP-TTY-payload-markup": ""
+  "quiet": false
 }

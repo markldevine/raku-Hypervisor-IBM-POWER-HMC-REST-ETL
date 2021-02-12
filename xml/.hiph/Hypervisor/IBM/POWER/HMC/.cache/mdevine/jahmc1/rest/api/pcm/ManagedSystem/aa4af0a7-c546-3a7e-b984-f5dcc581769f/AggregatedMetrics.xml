@@ -1,0 +1,262 @@
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
+    <id>aa4af0a7-c546-3a7e-b984-f5dcc581769f</id>
+    <updated>2021-02-11T22:00:00.000-05:00</updated>
+    <title type="text">AggregatedMetrics</title>
+    <subtitle type="text">ManagedSystem aa4af0a7-c546-3a7e-b984-f5dcc581769f</subtitle>
+    <link rel="self" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/AggregatedMetrics"/>
+    <generator uri="IBM Power Systems Management Console" version="1"/>
+    <entry>
+        <id>1e850d66-e5d4-4e9f-ad6d-22bf8161b43f</id>
+        <updated>2021-02-11T22:00:00.000-05:00</updated>
+        <title type="text">ManagedSystem_aa4af0a7-c546-3a7e-b984-f5dcc581769f_20210205T000000-0500_20210211T220000-0500_7200.json</title>
+        <published>2021-02-05T00:00:00.000-05:00</published>
+        <link type="application/json" href="https://jahmc1:12443/rest/api/pcm/AggregatedMetrics/ManagedSystem_aa4af0a7-c546-3a7e-b984-f5dcc581769f_20210205T000000-0500_20210211T220000-0500_7200.json"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="ManagedSystem" frequency="7200"/>
+    </entry>
+    <entry>
+        <id>12a1de71-7a81-42e1-8154-cf8f29fb1592</id>
+        <updated>2021-02-11T00:00:00.000-05:00</updated>
+        <title type="text">ManagedSystem_aa4af0a7-c546-3a7e-b984-f5dcc581769f_20200901T000000-0400_20210211T000000-0500_86400.json</title>
+        <published>2020-09-01T00:00:00.000-04:00</published>
+        <link type="application/json" href="https://jahmc1:12443/rest/api/pcm/AggregatedMetrics/ManagedSystem_aa4af0a7-c546-3a7e-b984-f5dcc581769f_20200901T000000-0400_20210211T000000-0500_86400.json"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="ManagedSystem" frequency="86400"/>
+    </entry>
+    <entry>
+        <id>43926879-0233-4f60-8150-6db5fb284801</id>
+        <updated>2021-02-11T22:00:00.000-05:00</updated>
+        <title type="text">ManagedSystem_aa4af0a7-c546-3a7e-b984-f5dcc581769f_20210210T220500-0500_20210211T220000-0500_300.json</title>
+        <published>2021-02-10T22:05:00.000-05:00</published>
+        <link type="application/json" href="https://jahmc1:12443/rest/api/pcm/AggregatedMetrics/ManagedSystem_aa4af0a7-c546-3a7e-b984-f5dcc581769f_20210210T220500-0500_20210211T220000-0500_300.json"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="ManagedSystem" frequency="300"/>
+    </entry>
+    <entry>
+        <id>bfd5355f-7311-4ec3-989f-58e4e6fcb79a</id>
+        <updated>2021-02-11T22:19:15.884-05:00</updated>
+        <title type="text">LogicalPartition_31E908B6-2B8E-4E50-AD08-9E853F8F5216</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/31E908B6-2B8E-4E50-AD08-9E853F8F5216/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>c6e153bc-01b0-45b2-83ca-cffbe7e37ae9</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_113E875A-EF9D-4CBE-9C7B-532F78851D57</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/113E875A-EF9D-4CBE-9C7B-532F78851D57/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>b6014888-489c-4b8f-98ff-cd70323b28d2</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_2ED7F4D2-9B60-4AEA-A2B1-466E3D8D86C0</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/2ED7F4D2-9B60-4AEA-A2B1-466E3D8D86C0/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>5875a833-892a-4b74-8448-02d02f8abe4e</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_53A3F4A7-4B75-44ED-8A13-BE3733035B54</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/53A3F4A7-4B75-44ED-8A13-BE3733035B54/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>fe0a94b9-b3a9-4397-8f13-3761fc566c93</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_5F49FE78-8B16-4347-BF0D-B71A7513894E</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/5F49FE78-8B16-4347-BF0D-B71A7513894E/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>1c67af68-0d0f-4bd8-87b3-f8b404e42e6d</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_42A4C60E-F781-4888-9A54-6FC3FBBDAD8A</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/42A4C60E-F781-4888-9A54-6FC3FBBDAD8A/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>f05585dc-01fb-4955-969f-11d3e5467f73</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_22208B88-F953-4535-8875-2BC1A0CC0592</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/22208B88-F953-4535-8875-2BC1A0CC0592/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>a66eb300-c5dc-4b98-9863-ddfd4a910725</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_2C857852-F825-4598-ACF3-6068C717528E</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/2C857852-F825-4598-ACF3-6068C717528E/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>d91bba93-8eca-4cb2-a61c-5eb0bdac7330</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_6C6DA864-DF52-4F30-8BC1-FF7D34BCD90C</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/6C6DA864-DF52-4F30-8BC1-FF7D34BCD90C/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>b3777d3d-782b-49f4-83d0-81aaa7da9754</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_20C6BCB5-B178-4425-89E8-CED835E26807</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/20C6BCB5-B178-4425-89E8-CED835E26807/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>08ae8307-f1a3-4b84-85b0-1a46803633c8</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_2D021C8F-97F1-4175-A2B5-98E39B13FAE5</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/2D021C8F-97F1-4175-A2B5-98E39B13FAE5/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>28552bae-aaaa-47c5-b6b1-7e4acecd23c1</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_11F1E86B-62A0-45C2-B8AF-D6FFF0C8D7AE</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/11F1E86B-62A0-45C2-B8AF-D6FFF0C8D7AE/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>c29a894f-853a-4fe8-b20b-81cbca665584</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_52CB6570-4666-4ECE-9B88-FC4D00846AA5</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/52CB6570-4666-4ECE-9B88-FC4D00846AA5/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>8ac9c05b-81c9-48df-8eda-11890af54617</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_7A228DA3-B99B-4565-88B8-13A394892EF6</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/7A228DA3-B99B-4565-88B8-13A394892EF6/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>b33c33dd-e5d3-4e4a-b737-f41cba850eea</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_45752ADF-3A55-404E-A74D-72FD1F4384D7</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/45752ADF-3A55-404E-A74D-72FD1F4384D7/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>7e0bcf4c-ec65-46b8-a6bb-bd8b34c660f5</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_12C02AD9-09AB-4994-97F9-0CC87D57B3EE</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/12C02AD9-09AB-4994-97F9-0CC87D57B3EE/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>dd8f91b5-94ac-482b-9985-4e15f203758e</id>
+        <updated>2021-02-11T22:19:15.885-05:00</updated>
+        <title type="text">LogicalPartition_4B273E55-6EA2-4EC6-BEE8-BA03F7C30394</title>
+        <published>2021-02-11T22:19:15.885-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/4B273E55-6EA2-4EC6-BEE8-BA03F7C30394/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>1b607802-7f05-468e-a17e-b63257892266</id>
+        <updated>2021-02-11T22:19:15.886-05:00</updated>
+        <title type="text">LogicalPartition_0EB1F82D-571C-474F-A18E-25BFCD630E48</title>
+        <published>2021-02-11T22:19:15.886-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/0EB1F82D-571C-474F-A18E-25BFCD630E48/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>01dc9e55-f0b3-42b3-b492-00e847dccc75</id>
+        <updated>2021-02-11T22:19:15.886-05:00</updated>
+        <title type="text">LogicalPartition_71FC6B55-D23E-47A7-8CBD-5330B46A631A</title>
+        <published>2021-02-11T22:19:15.886-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/71FC6B55-D23E-47A7-8CBD-5330B46A631A/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+    <entry>
+        <id>2e2823aa-cc02-4a00-8f0e-e23441ba97e8</id>
+        <updated>2021-02-11T22:19:15.886-05:00</updated>
+        <title type="text">LogicalPartition_3EE11EE6-E023-4005-A9F5-956EB36B8F73</title>
+        <published>2021-02-11T22:19:15.886-05:00</published>
+        <link type="application/atom+xml" href="https://jahmc1:12443/rest/api/pcm/ManagedSystem/aa4af0a7-c546-3a7e-b984-f5dcc581769f/LogicalPartition/3EE11EE6-E023-4005-A9F5-956EB36B8F73/AggregatedMetrics"/>
+        <author>
+            <name>IBM Power Systems Management Console</name>
+        </author>
+        <category term="LogicalPartition"/>
+    </entry>
+</feed>
