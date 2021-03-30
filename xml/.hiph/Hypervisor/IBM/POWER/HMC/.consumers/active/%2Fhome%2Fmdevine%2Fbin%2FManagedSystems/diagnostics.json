@@ -1,6 +1,6 @@
 {
   "HIPH_PARSE": 1,
-  "HIPH_INIT": 1,
   "HIPH_FETCH": 1,
+  "HIPH_INIT": 1,
   "HIPH_LOAD": 1
 }
